@@ -1,7 +1,31 @@
 .dashboard-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dashboard-container-top{
     height: 100vh;
     background-image: url('https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');
     // background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
     background-repeat: no-repeat;
     background-size: cover;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dashboard-title-text{
+    padding-left: 40px;
+    font-size: 4rem;
+}
+
+.dashboard-description-text{
+    width: 50%;
+    line-height: 35px;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 2rem;
+    text-align: justify;
 }

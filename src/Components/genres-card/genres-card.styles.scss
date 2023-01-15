@@ -1,0 +1,40 @@
+.genres-card-container{
+    height: 300vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.genres-card{
+    margin-top: 2vh;
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.horror{
+    background-image: url('https://wallpapers.com/images/hd/horror-wallpaper-wipqucukh5wolwuu.jpg');
+}
+
+.romantic-comedy{
+    background-image: url('https://img.freepik.com/free-photo/beautiful-photozone-with-big-wreath-decorated-with-greenery-roses-centerpiece-candles-sides-garland-hanged-trees_8353-11019.jpg?w=2000');
+}
+
+.mystery{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2wMOKuQsDBuJlhHCiUhwpaNfAh6PORe9nA&usqp=CAU');
+}
+
+.anime{
+    background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700144907.jpg');
+}
+
+.action{
+    background-image: url('https://wallpapercave.com/wp/wp3173712.jpg');
+}
