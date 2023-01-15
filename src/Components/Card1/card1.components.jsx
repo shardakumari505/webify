@@ -3,7 +3,7 @@ import './card1.styles.scss';
 
 const Card1 = (title) => {
  return(<>
-    <div class="card-container">
+    <div className="card-container">
     
     </div>
  </>)

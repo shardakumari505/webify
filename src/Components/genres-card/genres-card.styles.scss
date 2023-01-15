@@ -1,5 +1,5 @@
 .genres-card-container{
-    height: 300vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,8 +7,8 @@
 }
 
 .genres-card{
-    margin-top: 2vh;
-    height: 50vh;
+    margin-top: 0.5vh;
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@
 }
 
 .anime{
-    background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700144907.jpg');
+    background-image: url('https://e0.pxfuel.com/wallpapers/914/238/desktop-wallpaper-lofi-remix-chill-playlist-lyrics-video-love-is-gone-before-you-g-art-digital-painting-digital-art-fantasy-lofi-couple.jpg');
 }
 
 .action{
