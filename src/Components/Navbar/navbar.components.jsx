@@ -27,7 +27,7 @@ class Navbar extends React.Component{
         return(
             <div className="navbar-container">
                 <div className="navbar-container-left">
-                <h3 className="navbar-text title">WEBIFY</h3>
+                <h3 className="navbar-text title">BingeWatch</h3>
                   <span className="navbar-text">Home</span>
                   <span className="navbar-text">Horror</span>
                   <span className="navbar-text">Romantic Comedy</span>
