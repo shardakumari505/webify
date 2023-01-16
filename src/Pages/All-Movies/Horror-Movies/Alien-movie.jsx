@@ -1,9 +1,11 @@
 import React from "react";
-import './alien-movie.styles.scss';
+import './Alien-movie.styles.scss';
 
 const Alien = () => {
     return(
-        <div className=""></div>
+        <div className="alien-movie-container">
+
+        </div>
     );
 }
 
