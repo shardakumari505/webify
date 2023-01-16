@@ -17,8 +17,19 @@
 // }
 
 .card-container{
-    height: 30vh;
-    width: 15vw;
+    height: 50vh;
+    width: 18vw;
     border: 2px solid white;
     padding: 50px;
+    background: url('https://i.pinimg.com/originals/03/5a/1e/035a1e61ba9e4b1fd767bf8066c6f45e.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imdbRatingPlugin{
+
+}
+
+.rating-star-icon{
+    background-color: yellow;
 }
