@@ -8,17 +8,18 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 class Navbar extends React.Component{
 
     componentDidMount() {
-        window.addEventListener("scroll", this.handleScroll);
+        window.addEventListener("scroll", this.handleScrollTop);
       }
     
       componentWillUnmount() {
-        window.removeEventListener("scroll", this.handleScroll);
+        window.removeEventListener("scroll", this.handleScrollTop);
       }
     
-      handleScroll = () => {
+      handleScrollTop = () => {
         if (window.scrollY > 20) {
           document.querySelector(".navbar-container").className = "navbar-container scroll";
-        } else {
+        } 
+        else {
           document.querySelector(".navbar-container").className = "navbar-container";
         }
       };
@@ -28,12 +29,12 @@ class Navbar extends React.Component{
             <div className="navbar-container">
                 <div className="navbar-container-left">
                 <h3 className="navbar-text title">BingeWatch</h3>
-                  <span className="navbar-text">Home</span>
-                  <span className="navbar-text">Horror</span>
-                  <span className="navbar-text">Romantic Comedy</span>
-                  <span className="navbar-text">Mystery</span>
-                  <span className="navbar-text">Anime</span>
-                  <span className="navbar-text">Action</span>
+                  <a className="navbar-text" href='#'>Home</a>
+                  <a className="navbar-text" href='#horror-page'>Horror</a>
+                  <a className="navbar-text" href='#romantic-comedy-page'>Romantic Comedy</a>
+                  <a className="navbar-text" href='#mystery-page'>Mystery</a>
+                  <a className="navbar-text" href='#anime-page'>Anime</a>
+                  <a className="navbar-text" href='#action-page'>Action</a>
                 </div>
 
                 <div className="navbar-container-centre">

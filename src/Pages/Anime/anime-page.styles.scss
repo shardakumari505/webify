@@ -1,0 +1,24 @@
+.anime-page-container{
+    height: 100vh;
+    width: 100%;
+    background: url('https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.anime-page-title-text{
+    margin-top: 10vh;
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+.anime-movie-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
