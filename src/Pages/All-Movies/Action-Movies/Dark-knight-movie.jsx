@@ -1,9 +1,23 @@
 import React from "react";
 import './Dark-knight-movie.styles.scss';
+import Card1 from "../../../Components/Card1/card1.components";
 
 const DarkKnight = () => {
     return(
-        <div className="alien-movie-container">
+        <div className="movie-movie-container">
+            <div className="image-container">
+            <span class="imdbRatingPlugin" data-user="ur161205415" data-title="tt0468569" data-style="p1"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt="The Dark Knight (2008) on IMDb" />8.7</span>
+            </div>
+            <div className="more-movie-movie-container">            
+            <div className="more-text-container"><h1>More like These</h1></div>
+            <div className="movie-movie-cards-container">
+                <Card1/>
+                <Card1/>
+                <Card1/>
+                <Card1/>
+            </div>
+            </div>
+          
 
         </div>
     );
