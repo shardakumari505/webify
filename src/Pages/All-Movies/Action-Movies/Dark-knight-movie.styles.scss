@@ -1,0 +1,53 @@
+.movie-movie-container{
+height: auto;
+width:100%;
+background-color: #141414;
+}
+.image-container{
+    height:98vh;
+    width:100%;
+    background-image: url('https://images.unsplash.com/photo-1536183922588-166604504d5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFyayUyMG5pZ2h0fGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    // align-items: center;
+    justify-content: right;
+    }
+
+.more-text-container h1{
+    font-size: 2rem;
+    font-weight: 700;
+    padding:20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.movie-movie-cards-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+// .more-movie-movie-container{
+//     display: flex;
+//     flex-direction: column;
+//     background-color: aqua;
+
+.imdbRatingPlugin{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: aqua;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+}
+.imdbRatingPlugin img{
+    // padding-bottom: 0;
+    // padding-top: 1;
+    padding-right: 20px;
+    // height: 40px;
+    width: 100px;
+}
