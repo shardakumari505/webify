@@ -99,7 +99,6 @@ const ActionPage = () => {
                         </div>
 
                         <div className="main-card-container-bottom-on-hover">
-
                         </div>
                     </div>
                 </Link>

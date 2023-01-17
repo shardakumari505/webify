@@ -1,6 +1,6 @@
 .main-card-container{
-    height: 40vh;
-    width: 250px;
+    height: 50vh;
+    width: 300px;
     border: 2px solid whitesmoke;
     // padding: 50px;
     background: url('https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg');
@@ -10,8 +10,8 @@
 }
 
 .main-card-container-before-hover{
-    height: 40vh;
-    width: 250px;
+    height: 50vh;
+    width: 300px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -19,14 +19,16 @@
 }
 
 .main-card-container-top{
-    height: 35vh;
-    width: 250px;
+    height: 45vh;
+    width: 300px;
     margin: 0;
     padding: 0;
 }
 
 .main-card-container-top-text{
+    height: 2vh;
     display: flex;
+    align-items: center;
     font-size: 2rem;
     color: aliceblue;
     padding: 10px;
@@ -38,7 +40,7 @@
 
 .main-card-container-bottom{
     height: 8vh;
-    width: 250px;
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,13 +52,24 @@
 
 .main-card-container-bottom-on-hover{
     transform-origin: 0 100%;
-    width: 250px;
-    height: 25vh;
-    margin-top: -25vh;
+    width: 300px;
+    height: 30vh;
+    margin-top: -30vh;
     background: #141414;
     opacity: 0.7;
     transition: transform .5s;
     transform: scaleY(0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card-container-bottom-on-hover p {
+    padding: 0 20px;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
 }
 
 .main-card-container:hover {
@@ -66,4 +79,25 @@
     .main-card-container-bottom-on-hover{
         transform: scaleY(1);
     }
+}
+
+.main-card-bottom-button{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #E50914;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: aliceblue;
+    margin-bottom: 15px;
+    transition: color 0.2s linear;
+}
+
+.main-card-bottom-button:hover{
+    color: aliceblue;
+    background-color: #ff000d;
 }
