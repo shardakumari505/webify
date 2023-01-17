@@ -1,5 +1,5 @@
 .romantic-comedy-page-container{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background: url('https://images.unsplash.com/photo-1515871204537-49a5fe66a31f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1082&q=80');
     background-repeat: no-repeat;
@@ -21,4 +21,105 @@
     justify-content: space-around;
     justify-content: space-evenly;
     margin-top: 50px;
+}
+
+
+
+.main-card-container{
+    height: 40vh;
+    width: 250px;
+    border: 2px solid whitesmoke;
+    // padding: 50px;
+    // background: url('https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+
+.chhichhore{
+    background: url('https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Chhichhore_Poster.jpg/220px-Chhichhore_Poster.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.citylights{
+    background: url('https://upload.wikimedia.org/wikipedia/commons/0/09/City_Lights_%281931_theatrical_poster_-_retouched%29.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forrestgump{
+    background: url('https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Forrest_Gump_poster.jpg/220px-Forrest_Gump_poster.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lifeisbeautiful{
+    background: url('https://upload.wikimedia.org/wikipedia/en/7/7c/Vitaebella.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moderntimes{
+    background: url('https://upload.wikimedia.org/wikipedia/commons/3/36/Modern_Times_poster.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-card-container-before-hover{
+    height: 40vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    // background-color: aqua;
+}
+
+.main-card-container-top{
+    height: 35vh;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-card-container-top-text{
+    display: flex;
+    font-size: 2rem;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.imdbicon{
+    width: 70px;
+}
+
+.main-card-container-bottom{
+    height: 8vh;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main-card-container-bottom-on-hover{
+    transform-origin: 0 100%;
+    width: 250px;
+    height: 25vh;
+    margin-top: -25vh;
+    background: #141414;
+    opacity: 0.7;
+    transition: transform .5s;
+    transform: scaleY(0);
+}
+
+.main-card-container:hover {
+    .main-card-container-bottom{
+        display: none;
+    }
+    .main-card-container-bottom-on-hover{
+        transform: scaleY(1);
+    }
 }

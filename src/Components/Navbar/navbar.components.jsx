@@ -4,6 +4,7 @@ import SearchIcon from "../search-icon/search-icon";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 class Navbar extends React.Component{
 
@@ -29,12 +30,12 @@ class Navbar extends React.Component{
             <div className="navbar-container">
                 <div className="navbar-container-left">
                 <h3 className="navbar-text title">BingeWatch</h3>
-                  <a className="navbar-text" href='#'>Home</a>
-                  <a className="navbar-text" href='#horror-page'>Horror</a>
-                  <a className="navbar-text" href='#romantic-comedy-page'>Romantic Comedy</a>
-                  <a className="navbar-text" href='#mystery-page'>Mystery</a>
-                  <a className="navbar-text" href='#anime-page'>Anime</a>
-                  <a className="navbar-text" href='#action-page'>Action</a>
+                  <Link className="navbar-text" to='/'>Home</Link>
+                  <Link className="navbar-text" to='/horrorpage'>Horror</Link>
+                  <Link className="navbar-text" to='/romanticcomedypage'>Romantic Comedy</Link>
+                  <Link className="navbar-text" to='/mysterypage'>Mystery</Link>
+                  <Link className="navbar-text" to='/animepage'>Anime</Link>
+                  <Link className="navbar-text" to='/actionpage'>Action</Link>
                 </div>
 
                 <div className="navbar-container-centre">
