@@ -1,6 +1,7 @@
 import React from "react";
 import './action-page.styles.scss';
 import { Link } from "react-router-dom";
+import Card from "../../Components/Card/card.component";
 
 const ActionPage = () => {
     return (
@@ -102,6 +103,8 @@ const ActionPage = () => {
                         </div>
                     </div>
                 </Link>
+
+                <Card />
             </div>
         </div>
     );

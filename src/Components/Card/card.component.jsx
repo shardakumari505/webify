@@ -3,8 +3,8 @@ import './card.component.styles.scss';
 
 const Card = () => {
     return(
-        <div className="">
-            {/* <div className="main-card-container-before-hover">
+        <div className="main-card-container">
+            <div className="main-card-container-before-hover">
                 <div className="main-card-container-top">
                     
                 </div>
@@ -17,7 +17,7 @@ const Card = () => {
 
             <div className="main-card-container-bottom-on-hover">
 
-            </div> */}
+            </div>
         </div>
     );
 }
