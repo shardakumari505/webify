@@ -10,7 +10,7 @@ const ActionPage = () => {
         <div className="action-page-container">
             <div className="action-page-title-text">Action</div>
             <div className="action-movie-container">
-             <Card MovieName={Darknight.MovieName} imgUrl={Darknight.imgUrl} Desc={Darknight.Desc} IMDB={Darknight.IMDB} />
+            <Link className="main-card-container  dark-knight" to='/darkknight-movie'><Card MovieName={Darknight.MovieName} imgUrl={Darknight.imgUrl} Desc={Darknight.Desc} IMDB={Darknight.IMDB} /></Link>
              <Card MovieName={LordOfTheRings.MovieName} imgUrl={LordOfTheRings.imgUrl} Desc={LordOfTheRings.Desc} IMDB={LordOfTheRings.IMDB}/>
              <Card />
              </div>
