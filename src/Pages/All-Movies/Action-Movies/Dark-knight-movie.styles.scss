@@ -127,6 +127,12 @@
     cursor: pointer;
 }
 
+.movie-share-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .movie-trailer-button{
     height: 6vh;
     width: 110px;

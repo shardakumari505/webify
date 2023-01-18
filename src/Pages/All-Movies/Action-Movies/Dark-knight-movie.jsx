@@ -4,6 +4,7 @@ import Card1 from "../../../Components/Card1/card1.components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import { faShareNodes } from '@fortawesome/free-solid-svg-icons';
+import ShareButton from "../../../Components/Share-button/share-button.components";
 
 const DarkKnight = () => {
     return(
@@ -42,7 +43,8 @@ const DarkKnight = () => {
                                 <div className="play-button">Play</div>
                             </div>
                             <div className="movie-share-button">
-                                <FontAwesomeIcon className="share-icon" icon={faShareNodes} />
+                                {/* <FontAwesomeIcon className="share-icon" icon={faShareNodes} /> */}
+                                <ShareButton />
                             </div>
                         </div>
                         <div className="movie-trailer-button">
