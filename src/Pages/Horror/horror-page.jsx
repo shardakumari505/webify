@@ -2,13 +2,46 @@ import React from "react";
 import './horror-page.styles.scss';
 import Card1 from "../../Components/Card1/card1.components";
 import { Link } from "react-router-dom";
-
+import Card from "../../Components/Card/card.component";
+import { Alien, Psycho,Shining,Thing,Tumbbad } from "../../moviedata";
 const HorrorPage = () => {
     return (
         <div className="horror-page-container">
             <div className="horror-page-title-text">Horror</div>
             <div className="horror-movie-container">
-                <Link className="main-card-container  alien" to='/alien-movie'>
+                <Card 
+                MovieName={Alien.MovieName}
+                Desc={Alien.Desc}
+                IMDB={Alien.IMDB}
+                imgUrl={Alien.imgUrl}
+                />
+                <Card
+                MovieName={Psycho.MovieName}
+                Desc={Psycho.Desc}
+                IMDB={Psycho.IMDB}
+                imgUrl={Psycho.imgUrl}
+                />
+                <Card
+                MovieName={Shining.MovieName}
+                Desc={Shining.Desc}
+                IMDB={Shining.IMDB}
+                imgUrl={Shining.imgUrl}
+                />
+                <Card
+                MovieName={Thing.MovieName}
+                Desc={Thing.Desc}
+                IMDB={Thing.IMDB}
+                imgUrl={Thing.imgUrl}
+                />
+                <Card
+                MovieName={Tumbbad.MovieName}
+                Desc={Tumbbad.Desc}
+                IMDB={Tumbbad.IMDB}
+                imgUrl={Tumbbad.imgUrl}
+                />               
+                
+                
+                {/* <Link className="main-card-container  alien" to='/alien-movie'>
                     <div className="main-card-container alien">
                         <div className="main-card-container-before-hover">
                             <div className="main-card-container-top">
@@ -102,7 +135,7 @@ const HorrorPage = () => {
 
                         </div>
                     </div>
-                </Link>
+                </Link> */}
             </div>
         </div>
     );
