@@ -10,6 +10,7 @@ const Card = ({MovieName,imgUrl,Desc,IMDB}) => {
                 </div>
 
                 <div className="main-card-container-bottom">
+                    <span class="fa fa-star checked"></span>
                     <div className="main-card-container-top-text">{IMDB}</div>
                     <img className="imdbicon" src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt="The Dark Knight (2008) on IMDb" />
                 </div>
