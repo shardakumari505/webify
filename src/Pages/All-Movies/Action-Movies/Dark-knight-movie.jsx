@@ -3,6 +3,7 @@ import './Dark-knight-movie.styles.scss';
 import Card1 from "../../../Components/Card1/card1.components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
+import { faShareNodes } from '@fortawesome/free-solid-svg-icons';
 
 const DarkKnight = () => {
     return(
@@ -35,9 +36,14 @@ const DarkKnight = () => {
                         </span>
                     </span>
                     <div className="movie-play-button-container">
-                        <div className="movie-play-button">
-                            <FontAwesomeIcon className="play-icon" icon={faPlay} />
-                            <div className="play-button">Play</div>
+                        <div className="movie-play-left-container">
+                            <div className="movie-play-button">
+                                <FontAwesomeIcon className="play-icon" icon={faPlay} />
+                                <div className="play-button">Play</div>
+                            </div>
+                            <div className="movie-share-button">
+                                <FontAwesomeIcon className="share-icon" icon={faShareNodes} />
+                            </div>
                         </div>
                         <div className="movie-trailer-button">
                             <FontAwesomeIcon className="play-icon" icon={faPlay} />
@@ -51,9 +57,9 @@ const DarkKnight = () => {
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <Card1/>
+                    {/* <Card1/>
                     <Card1/>
-                    <Card1/>
-                    <Card1/>
+                    <Card1/> */}
                 </div>
             </div>
           

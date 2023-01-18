@@ -29,7 +29,7 @@ class Navbar extends React.Component{
         return(
             <div className="navbar-container">
                 <div className="navbar-container-left">
-                <h3 className="navbar-text title">BingeWatch</h3>
+                <h3 className="navbar-text navbar-title">BingeWatch</h3>
                   <Link className="navbar-text" to='/'>Home</Link>
                   <Link className="navbar-text" to='/horrorpage'>Horror</Link>
                   <Link className="navbar-text" to='/romanticcomedypage'>Romantic Comedy</Link>

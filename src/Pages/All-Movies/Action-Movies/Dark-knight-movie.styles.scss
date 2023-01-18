@@ -108,6 +108,11 @@
     // background-color: aquamarine;
 }
 
+.movie-play-left-container{
+    display: flex;
+    align-items: center;
+}
+
 .movie-play-button{
     height: 8vh;
     width: 110px;
@@ -118,6 +123,8 @@
     text-align: center;
     justify-content: space-evenly;
     font-size: 1.4rem;
+    box-shadow: 2px 2px 2px 2px #3E3B39;
+    cursor: pointer;
 }
 
 .movie-trailer-button{
@@ -131,12 +138,18 @@
     text-align: center;
     justify-content: space-evenly;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 
 .play-icon{
     height: 4vh;
 }
 
+.share-icon{
+    height: 5vh;
+    padding-left: 30px;
+    cursor: pointer;
+}
 
 .more-text-container{
     display: flex;

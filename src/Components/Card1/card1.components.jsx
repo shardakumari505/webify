@@ -6,12 +6,56 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const Card1 = (title) => {
  return(<>
-    <div className="card-container">
-      {/* <div className="card-top-mentions">
-         <FontAwesomeIcon className="rating-star-icon" icon={faStar} />
-         <span class="imdbRatingPlugin" data-user="ur161205415" data-title="tt0468569" data-style="p1"><a href="https://www.imdb.com/title/tt0468569/?ref_=plg_rt_1"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt="The Dark Knight (2008) on IMDb" /></a></span>
-      </div> */}
+    <div class="container">
+  <div class="card">
+    <h3 class="title">Card 1</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
     </div>
+    <div class="circle">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle class="stroke" cx="60" cy="60" r="50"/>
+    </svg>
+    </div>
+  </div>
+  <div class="card">
+    <h3 class="title">Card 2</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+    <div class="circle">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle class="stroke" cx="60" cy="60" r="50"/>
+    </svg>
+    </div>
+  </div>
+  <div class="card">
+    <h3 class="title">Card 3</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+    <div class="circle">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle class="stroke" cx="60" cy="60" r="50"/>
+    </svg>
+    </div>
+  </div>
+  <div class="card">
+    <h3 class="title">Card 4</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+    <div class="circle">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle class="stroke" cx="60" cy="60" r="50"/>
+    </svg>
+    </div>
+  </div>
+</div>
  </>)
 }
 
