@@ -29,7 +29,7 @@ const DarkKnight = () => {
                         </span>
                         <span className="more-meta-data">
                             <span className="left-column">Starring</span>
-                            <span className="right-column">Christian Bale  Michael Caine  Heath Ledger <br /> Gary Oldman  Aaron Eckhart   Maggie Gyllenhaal <br /> Morgan Freeman</span>
+                            <span className="right-column right-column-cast">Christian Bale  • Michael Caine  • Heath Ledger • Gary Oldman • Aaron Eckhart  •  Maggie Gyllenhaal  •  Morgan Freeman</span>
                         </span>
                         <span className="more-meta-data">
                             <span className="left-column">Distributed By</span>

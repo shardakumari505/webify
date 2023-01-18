@@ -101,6 +101,7 @@
 
 .right-column{
     width: 50%;
+    text-align: left;
     // background-color: aquamarine;
 }
 
@@ -191,5 +192,13 @@
     width: 90%;
     justify-content: space-between;
     align-items: center;
+}
+
+.right-column-cast{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
 }
 
