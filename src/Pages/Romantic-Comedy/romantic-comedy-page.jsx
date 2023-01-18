@@ -1,14 +1,48 @@
 import React from "react";
 import './romantic-comedy-page.styles.scss';
+import Card from "../../Components/Card/card.component";
 import Card1 from "../../Components/Card1/card1.components";
 import { Link } from "react-router-dom";
-
+import { Chhichhore, CityLights, ForrestGump, LifeIsBeautiful, ModernTimes } from "../../moviedata";
 const RomanticComedyPage = () => {
     return (
         <div className="romantic-comedy-page-container">
             <div className="romantic-comedy-page-title-text">Romantic Comedy</div>
             <div className="romantic-movie-container">
-                <Link className="main-card-container  chhichhore" to='/chhichhore-movie'>
+                <Card
+                    MovieName={Chhichhore.MovieName}
+                    Desc={Chhichhore.Desc}
+                    IMDB={Chhichhore.IMDB}
+                    imgUrl={Chhichhore.imgUrl}
+                />
+                <Card
+                    MovieName={CityLights.MovieName}
+                    Desc={CityLights.Desc}
+                    IMDB={CityLights.IMDB}
+                    imgUrl={CityLights.imgUrl}
+                />
+                <Card
+                    MovieName={ForrestGump.MovieName}
+                    Desc={ForrestGump.Desc}
+                    IMDB={ForrestGump.IMDB}
+                    imgUrl={ForrestGump.imgUrl}
+                />
+                <Card
+                    MovieName={LifeIsBeautiful.MovieName}
+                    Desc={LifeIsBeautiful.Desc}
+                    IMDB={LifeIsBeautiful.IMDB}
+                    imgUrl={LifeIsBeautiful.imgUrl}
+                />
+                <Card
+                    MovieName={ModernTimes.MovieName}
+                    Desc={ModernTimes.Desc}
+                    IMDB={ModernTimes.IMDB}
+                    imgUrl={ModernTimes.imgUrl}
+                />
+
+
+
+                {/* <Link className="main-card-container  chhichhore" to='/chhichhore-movie'>
                     <div className="main-card-container chhichhore">
                         <div className="main-card-container-before-hover">
                             <div className="main-card-container-top">
@@ -102,7 +136,7 @@ const RomanticComedyPage = () => {
 
                         </div>
                     </div>
-                </Link>
+                </Link> */}
             </div>
         </div>
     );
