@@ -4,19 +4,23 @@ import { Link } from "react-router-dom";
 import Card from "../../Components/Card/card.component";
 import { Darknight } from "../../moviedata";
 import { LordOfTheRings } from "../../moviedata";
+import { Inception } from "../../moviedata";
+import { Matrix } from "../../moviedata";
+import { StarWars } from "../../moviedata";
 
 const ActionPage = () => {
     return (
         <div className="action-page-container">
             <div className="action-page-title-text">Action</div>
             <div className="action-movie-container">
-            <Link className="main-card-container  dark-knight" to='/darkknight-movie'><Card MovieName={Darknight.MovieName} imgUrl={Darknight.imgUrl} Desc={Darknight.Desc} IMDB={Darknight.IMDB} /></Link>
+            {/* <Link className="main-card-container  dark-knight" to='/darkknight-movie'><Card MovieName={Darknight.MovieName} imgUrl={Darknight.imgUrl} Desc={Darknight.Desc} IMDB={Darknight.IMDB} /></Link> */}
+             <Link to='/darkknight-movie'><Card MovieName={Darknight.MovieName} imgUrl={Darknight.imgUrl} Desc={Darknight.Desc} IMDB={Darknight.IMDB} /></Link> 
              <Card MovieName={LordOfTheRings.MovieName} imgUrl={LordOfTheRings.imgUrl} Desc={LordOfTheRings.Desc} IMDB={LordOfTheRings.IMDB}/>
-             <Card />
+             <Card MovieName={Inception.MovieName} imgUrl={Inception.imgUrl} Desc={Inception.Desc} IMDB={Inception.IMDB}/>
              </div>
              <div className="action-movie-container">
-             <Card />
-             <Card />
+             <Card MovieName={Matrix.MovieName} imgUrl={Matrix.imgUrl} Desc={Matrix.Desc} IMDB={Matrix.IMDB}/>
+             <Card MovieName={StarWars.MovieName} imgUrl={StarWars.imgUrl} Desc={StarWars.Desc} IMDB={StarWars.IMDB}/>
              </div>
 
 
