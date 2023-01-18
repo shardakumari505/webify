@@ -1,5 +1,5 @@
-.main-card-container{
-    height: 50vh;
+.main-card-containerrr{
+    height: 60vh;
     width: 300px;
     border: 2px solid whitesmoke;
     // padding: 50px;
@@ -10,8 +10,8 @@
 
 }
 
-.main-card-container-before-hover{
-    height: 50vh;
+.main-card-container-before-hoverrr{
+    height: 60vh;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -20,14 +20,14 @@
     // background-color: aqua;
 }
 
-.main-card-container-top{
-    height: 45vh;
+.main-card-container-toppp{
+    height: 55vh;
     width: 300px;
     margin: 0;
     padding: 0;
 }
 
-.main-card-container-top-text{
+.main-card-container-top-texttt{
     height: 2vh;
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@
     font-size: 2rem;
   }
 
-.main-card-container-bottom{
+.main-card-container-bottommm{
     height: 8vh;
     width: 300px;
     display: flex;
@@ -57,7 +57,7 @@
     background-color: #141414;
 }
 
-.main-card-container-bottom-on-hover{
+.main-card-container-bottom-on-hoverrr{
     transform-origin: 0 100%;
     width: 300px;
     height: 30vh;
@@ -72,23 +72,23 @@
     justify-content: center;
 }
 
-.main-card-container-bottom-on-hover p {
+.main-card-container-bottom-on-hoverrr p {
     padding: 0 20px;
     color: white;
     font-weight: bold;
     text-align: justify;
 }
 
-.main-card-container:hover {
-    .main-card-container-bottom{
+.main-card-containerrr:hover {
+    .main-card-container-bottommm{
         display: none;
     }
-    .main-card-container-bottom-on-hover{
+    .main-card-container-bottom-on-hoverrr{
         transform: scaleY(1);
     }
 }
 
-.main-card-bottom-button{
+.main-card-bottom-buttonnn{
     height: 40px;
     width: 120px;
     border-radius: 5px;
@@ -104,7 +104,7 @@
     transition: color 0.2s linear;
 }
 
-.main-card-bottom-button:hover{
+.main-card-bottom-buttonnn:hover{
     color: aliceblue;
     background-color: #ff000d;
 }

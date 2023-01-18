@@ -1,24 +1,40 @@
-import React from "react";
+import React,{ useState } from "react";
 import './card.component.styles.scss';
+
+const ReadMore = ({ children }) => {
+    const text = children;
+    const [isReadMore, setIsReadMore] = useState(true);
+    const toggleReadMore = () => {
+      setIsReadMore(!isReadMore);
+    };
+    return (
+      <p className="aboutussummary">
+        {isReadMore ? text.slice(0, 150) : text}
+        <span onClick={toggleReadMore} className="read-or-hide">
+          {isReadMore ? "...read more" : " show less"}
+        </span>
+      </p>
+    );
+  };
 
 const Card = ({MovieName,imgUrl,Desc,IMDB}) => {
     return(
-        <div className="main-card-container" style={{backgroundImage:`url(${imgUrl})`}}>
-            <div className="main-card-container-before-hover">
-                <div className="main-card-container-top">
+        <div className="main-card-containerrr" style={{backgroundImage:`url(${imgUrl})`}}>
+            <div className="main-card-container-before-hoverrr">
+                <div className="main-card-container-toppp">
                     
                 </div>
 
-                <div className="main-card-container-bottom">
+                <div className="main-card-container-bottommm">
                     <span class="fa fa-star checked"></span>
-                    <div className="main-card-container-top-text">{IMDB}</div>
+                    <div className="main-card-container-top-texttt">{IMDB}</div>
                     <img className="imdbicon" src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt="The Dark Knight (2008) on IMDb" />
                 </div>
             </div>
 
-            <div className="main-card-container-bottom-on-hover">
-                <p className="main-card-container-bottom-on-hover-text">{Desc}</p>
-                <div className="main-card-bottom-button">View Trailer</div>
+            <div className="main-card-container-bottom-on-hoverrr">
+                <p className="main-card-container-bottom-on-hover-texttt"><ReadMore>{Desc}</ReadMore></p>
+                <div className="main-card-bottom-buttonnn">View Trailer</div>
             </div>
         </div>
     );
