@@ -1,12 +1,7 @@
 import React from "react";
-import './Dark-knight-movie.styles.scss';
-import Card1 from "../../../Components/Card1/card1.components";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay } from '@fortawesome/free-solid-svg-icons';
-import { faShareNodes } from '@fortawesome/free-solid-svg-icons';
-import ShareButton from "../../../Components/Share-button/share-button.components";
+import './movie-page.styles.scss';
 
-const DarkKnight = () => {
+const MoviePage = () => {
     return(
         <div className="movie-movie-container">
             <div className="image-container">
@@ -70,4 +65,4 @@ const DarkKnight = () => {
     );
 }
 
-export default DarkKnight;
+export default MoviePage;
