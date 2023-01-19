@@ -7,6 +7,11 @@ const ProfilePage = () => {
     return (
         <div className="profile-page-container">
 
+            <div className="sticky-title">
+                <div className="rectangle-box">About Us</div>
+                <div className="left-arrow"></div>
+            </div>
+
             <div className="profile-card profile-two">
                 <div class="card-image profile-img--two">
                     <img className="sharda-pic" src={Sharda} alt="profile two" />

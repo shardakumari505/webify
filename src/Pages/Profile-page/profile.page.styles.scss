@@ -40,6 +40,36 @@
     -webkit-animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
     animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
   }
+
+  .sticky-title{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 0;
+  }
+
+  .rectangle-box{
+    height: 50px;
+    width: 249px;
+    background-color: #1BBFE9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 1.4rem;
+  }
+
+  .left-arrow{
+    position: absolute;
+    left: 220px;
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 22px solid transparent; 
+    
+    border-right:30px solid #131313;
+  }
+
   .profile-card {
     background: #FFB300;
     width: 86px;
@@ -541,7 +571,7 @@
 }
 
 .pr-card:hover .contentBx {
-    height: 150px;
+    height: 180px;
     opacity: 1;
     visibility: visible;
     transition-delay: .5s;
