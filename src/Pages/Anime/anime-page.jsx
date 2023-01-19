@@ -4,7 +4,7 @@ import Card from "../../Components/Card/card.component";
 import Card1 from "../../Components/Card1/card1.components";
 import { Link } from "react-router-dom";
 
-import { Grave, LionKing, SpiderMan,Spritedaway,Yourname } from "../../moviedata";
+import { Grave, LionKing, SpiderMan, Spritedaway, Yourname } from "../../moviedata";
 
 
 const AnimePage = () => {
@@ -12,39 +12,39 @@ const AnimePage = () => {
         <div className="anime-page-container">
             <div className="anime-page-title-text">Anime</div>
             <div className="anime-movie-container">
-                <Card
+                <Link to='/graveoffireflies-movie'><Card
                     MovieName={Grave.MovieName}
                     Desc={Grave.Desc}
                     imgUrl={Grave.imgUrl}
                     IMDB={Grave.IMDB}
-                />
+                /></Link>
 
-                <Card
+                <Link to='/lionking-movie'><Card
                     MovieName={LionKing.MovieName}
                     Desc={LionKing.Desc}
                     imgUrl={LionKing.imgUrl}
                     IMDB={LionKing.IMDB}
-                />
+                /></Link>
 
-                <Card
+                <Link to='/spiderman-movie'><Card
                     MovieName={SpiderMan.MovieName}
                     Desc={SpiderMan.Desc}
                     imgUrl={SpiderMan.imgUrl}
                     IMDB={SpiderMan.IMDB}
-                />
+                /></Link>
 
-                <Card
+                <Link to='/spiritedaway-movie'><Card
                     MovieName={Spritedaway.MovieName}
                     Desc={Spritedaway.Desc}
                     imgUrl={Spritedaway.imgUrl}
                     IMDB={Spritedaway.IMDB}
-                />
-                <Card
-                 MovieName={Yourname.MovieName}
-                 Desc={Yourname.Desc}
-                 imgUrl={Yourname.imgUrl}
-                 IMDB={Yourname.IMDB}
-                 />
+                /></Link>
+                <Link to='/yourname-movie'><Card
+                    MovieName={Yourname.MovieName}
+                    Desc={Yourname.Desc}
+                    imgUrl={Yourname.imgUrl}
+                    IMDB={Yourname.IMDB}
+                /></Link>
 
 
                 {/*                 

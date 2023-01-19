@@ -10,36 +10,36 @@ const MysteryPage = () => {
         <div className="mystery-page-container">
             <div className="mystery-page-title-text">Mystery</div>
             <div className="mystery-movie-container">
-                <Card
+                <Link to='/livesofothers-movie'><Card
                     MovieName={LivesofOthers.MovieName}
                     Desc={LivesofOthers.Desc}
                     IMDB={LivesofOthers.IMDB}
                     imgUrl={LivesofOthers.imgUrl}
-                />
-                <Card
+                /></Link>
+                <Link to='/mirrorgame-movie'><Card
                     MovieName={MirrorGame.MovieName}
                     Desc={MirrorGame.Desc}
                     IMDB={MirrorGame.IMDB}
                     imgUrl={MirrorGame.imgUrl}
-                />
-                <Card
+                /></Link>
+                <Link to='/rearwindow-movie'><Card
                     MovieName={RearWindow.MovieName}
                     Desc={RearWindow.Desc}
                     IMDB={RearWindow.IMDB}
                     imgUrl={RearWindow.imgUrl}
-                />
-                <Card
+                /></Link>
+                <Link to='/seven-movie'><Card
                     MovieName={Seven.MovieName}
                     Desc={Seven.Desc}
                     IMDB={Seven.IMDB}
                     imgUrl={Seven.imgUrl}
-                />
-                <Card
+                /></Link>
+                <Link to='/silenceoflambs-movie'><Card
                     MovieName={SilenceofLambs.MovieName}
                     Desc={SilenceofLambs.Desc}
                     IMDB={SilenceofLambs.IMDB}
                     imgUrl={SilenceofLambs.imgUrl}
-                />
+                /></Link>
 
                 {/* <Link className="main-card-container  lives-of-others" to='/livesofothers-movie'>
                     <div className="main-card-container lives-of-others">
