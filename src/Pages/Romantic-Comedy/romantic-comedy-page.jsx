@@ -9,31 +9,31 @@ const RomanticComedyPage = () => {
         <div className="romantic-comedy-page-container">
             <div className="romantic-comedy-page-title-text">Romantic Comedy</div>
             <div className="romantic-movie-container">
-                <Link to='/chhichhore-movie'><Card
+                <Link className="movie-link" to='/chhichhore-movie'><Card
                     MovieName={Chhichhore.MovieName}
                     Desc={Chhichhore.Desc}
                     IMDB={Chhichhore.IMDB}
                     imgUrl={Chhichhore.imgUrl}
                 /></Link>
-                <Link to='/citylights-movie'><Card
+                <Link className="movie-link" to='/citylights-movie'><Card
                     MovieName={CityLights.MovieName}
                     Desc={CityLights.Desc}
                     IMDB={CityLights.IMDB}
                     imgUrl={CityLights.imgUrl}
                 /></Link>
-                <Link to='/forrestgump-movie'><Card
+                <Link className="movie-link" to='/forrestgump-movie'><Card
                     MovieName={ForrestGump.MovieName}
                     Desc={ForrestGump.Desc}
                     IMDB={ForrestGump.IMDB}
                     imgUrl={ForrestGump.imgUrl}
                 /></Link>
-                <Link to='/lifeisbeautiful-movie'><Card
+                <Link className="movie-link" to='/lifeisbeautiful-movie'><Card
                     MovieName={LifeIsBeautiful.MovieName}
                     Desc={LifeIsBeautiful.Desc}
                     IMDB={LifeIsBeautiful.IMDB}
                     imgUrl={LifeIsBeautiful.imgUrl}
                 /></Link>
-                <Link to='/moderntimes-movie'><Card
+                <Link className="movie-link" to='/moderntimes-movie'><Card
                     MovieName={ModernTimes.MovieName}
                     Desc={ModernTimes.Desc}
                     IMDB={ModernTimes.IMDB}

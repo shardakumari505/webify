@@ -15,13 +15,11 @@ const ActionPage = () => {
             <div className="action-page-title-text">Action</div>
             <div className="action-movie-container">
             {/* <Link className="main-card-container  dark-knight" to='/darkknight-movie'><Card MovieName={Darknight.MovieName} imgUrl={Darknight.imgUrl} Desc={Darknight.Desc} IMDB={Darknight.IMDB} /></Link> */}
-             <Link to='/darkknight-movie'><Card MovieName={Darknight.MovieName} imgUrl={Darknight.imgUrl} Desc={Darknight.Desc} IMDB={Darknight.IMDB} /></Link> 
-             <Link to='/lordofrings-movie'><Card MovieName={LordOfTheRings.MovieName} imgUrl={LordOfTheRings.imgUrl} Desc={LordOfTheRings.Desc} IMDB={LordOfTheRings.IMDB}/></Link>
-             <Link to='/inception-movie'><Card MovieName={Inception.MovieName} imgUrl={Inception.imgUrl} Desc={Inception.Desc} IMDB={Inception.IMDB}/></Link>
-             </div>
-             <div className="action-movie-container">
-             <Link to='/matrix-movie'><Card MovieName={Matrix.MovieName} imgUrl={Matrix.imgUrl} Desc={Matrix.Desc} IMDB={Matrix.IMDB}/></Link>
-             <Link to='/starwars-movie'><Card MovieName={StarWars.MovieName} imgUrl={StarWars.imgUrl} Desc={StarWars.Desc} IMDB={StarWars.IMDB}/></Link>
+             <Link className="movie-link" to='/darkknight-movie'><Card MovieName={Darknight.MovieName} imgUrl={Darknight.imgUrl} Desc={Darknight.Desc} IMDB={Darknight.IMDB} /></Link> 
+             <Link className="movie-link" to='/lordofrings-movie'><Card MovieName={LordOfTheRings.MovieName} imgUrl={LordOfTheRings.imgUrl} Desc={LordOfTheRings.Desc} IMDB={LordOfTheRings.IMDB}/></Link>
+             <Link className="movie-link" to='/inception-movie'><Card MovieName={Inception.MovieName} imgUrl={Inception.imgUrl} Desc={Inception.Desc} IMDB={Inception.IMDB}/></Link>
+             <Link className="movie-link" to='/matrix-movie'><Card MovieName={Matrix.MovieName} imgUrl={Matrix.imgUrl} Desc={Matrix.Desc} IMDB={Matrix.IMDB}/></Link>
+             <Link className="movie-link" to='/starwars-movie'><Card MovieName={StarWars.MovieName} imgUrl={StarWars.imgUrl} Desc={StarWars.Desc} IMDB={StarWars.IMDB}/></Link>
              </div>
 
 

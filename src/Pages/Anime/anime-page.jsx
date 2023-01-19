@@ -12,34 +12,34 @@ const AnimePage = () => {
         <div className="anime-page-container">
             <div className="anime-page-title-text">Anime</div>
             <div className="anime-movie-container">
-                <Link to='/graveoffireflies-movie'><Card
+                <Link className="movie-link" to='/graveoffireflies-movie'><Card
                     MovieName={Grave.MovieName}
                     Desc={Grave.Desc}
                     imgUrl={Grave.imgUrl}
                     IMDB={Grave.IMDB}
                 /></Link>
 
-                <Link to='/lionking-movie'><Card
+                <Link className="movie-link" to='/lionking-movie'><Card
                     MovieName={LionKing.MovieName}
                     Desc={LionKing.Desc}
                     imgUrl={LionKing.imgUrl}
                     IMDB={LionKing.IMDB}
                 /></Link>
 
-                <Link to='/spiderman-movie'><Card
+                <Link className="movie-link" to='/spiderman-movie'><Card
                     MovieName={SpiderMan.MovieName}
                     Desc={SpiderMan.Desc}
                     imgUrl={SpiderMan.imgUrl}
                     IMDB={SpiderMan.IMDB}
                 /></Link>
 
-                <Link to='/spiritedaway-movie'><Card
+                <Link className="movie-link" to='/spiritedaway-movie'><Card
                     MovieName={Spritedaway.MovieName}
                     Desc={Spritedaway.Desc}
                     imgUrl={Spritedaway.imgUrl}
                     IMDB={Spritedaway.IMDB}
                 /></Link>
-                <Link to='/yourname-movie'><Card
+                <Link className="movie-link" to='/yourname-movie'><Card
                     MovieName={Yourname.MovieName}
                     Desc={Yourname.Desc}
                     imgUrl={Yourname.imgUrl}

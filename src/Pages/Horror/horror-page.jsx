@@ -9,31 +9,31 @@ const HorrorPage = () => {
         <div className="horror-page-container">
             <div className="horror-page-title-text">Horror</div>
             <div className="horror-movie-container">
-                <Link to='/alien-movie'><Card
+                <Link className="movie-link" to='/alien-movie'><Card
                     MovieName={Alien.MovieName}
                     Desc={Alien.Desc}
                     IMDB={Alien.IMDB}
                     imgUrl={Alien.imgUrl}
                 /></Link>
-                <Link to='/psycho-movie'><Card
+                <Link className="movie-link" to='/psycho-movie'><Card
                     MovieName={Psycho.MovieName}
                     Desc={Psycho.Desc}
                     IMDB={Psycho.IMDB}
                     imgUrl={Psycho.imgUrl}
                 /></Link>
-                <Link to='/shining-movie'><Card
+                <Link className="movie-link" to='/shining-movie'><Card
                     MovieName={Shining.MovieName}
                     Desc={Shining.Desc}
                     IMDB={Shining.IMDB}
                     imgUrl={Shining.imgUrl}
                 /></Link>
-                <Link to='/thing-movie'><Card
+                <Link className="movie-link" to='/thing-movie'><Card
                     MovieName={Thing.MovieName}
                     Desc={Thing.Desc}
                     IMDB={Thing.IMDB}
                     imgUrl={Thing.imgUrl}
                 /></Link>
-                <Link to='/tumbbad-movie'><Card
+                <Link className="movie-link" to='/tumbbad-movie'><Card
                     MovieName={Tumbbad.MovieName}
                     Desc={Tumbbad.Desc}
                     IMDB={Tumbbad.IMDB}
