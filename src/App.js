@@ -34,6 +34,7 @@ import Inception from './Pages/All-Movies/Action-Movies/Inception-movie';
 import LordofRings from './Pages/All-Movies/Action-Movies/Lord-of-rings-movie';
 import Matrix from './Pages/All-Movies/Action-Movies/Matrix-movie';
 import StarWars from './Pages/All-Movies/Action-Movies/Star-wars-movie';
+import ProfilePage from './Pages/Profile-page/profile.page';
 
 
 class App extends Component {
@@ -77,6 +78,7 @@ class App extends Component {
             <Route path='/lordofrings-movie' element={<LordofRings />} />
             <Route path='/matrix-movie' element={<Matrix />} />
             <Route path='/starwars-movie' element={<StarWars />} />
+            <Route path='/profile' element={<ProfilePage />} />
           </Routes>
         </Router>
 

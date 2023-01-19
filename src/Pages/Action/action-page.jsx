@@ -8,6 +8,7 @@ import { Inception } from "../../moviedata";
 import { Matrix } from "../../moviedata";
 import { StarWars } from "../../moviedata";
 
+
 const ActionPage = () => {
     return (
         <div className="action-page-container">

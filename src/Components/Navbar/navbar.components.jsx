@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
+import ProfilePage from "../../Pages/Profile-page/profile.page";
 
 class Navbar extends React.Component{
 
@@ -29,7 +30,7 @@ class Navbar extends React.Component{
         return(
             <div className="navbar-container">
                 <div className="navbar-container-left">
-                <h3 className="navbar-text navbar-title">BingeWatch</h3>
+                <Link className="navbar-text" to='/'><h3 className="navbar-text navbar-title">BingeWatch</h3></Link>
                   <Link className="navbar-text" to='/'>Home</Link>
                   <Link className="navbar-text" to='/horrorpage'>Horror</Link>
                   <Link className="navbar-text" to='/romanticcomedypage'>Romantic Comedy</Link>
@@ -43,7 +44,7 @@ class Navbar extends React.Component{
                 </div>
 
                 <div className="navbar-container-right">
-                    <div className="bell-icon-navbar"><FontAwesomeIcon className="bell-icon" icon={faUser} /></div>
+                    <div className="bell-icon-navbar"><Link className="navbar-text" to='/profile'><FontAwesomeIcon className="bell-icon" icon={faUser} /></Link></div>
                 </div>
             </div>
         )
