@@ -6,10 +6,12 @@ import Card1 from "../Card1/card1.components";
 import { faShareNodes } from '@fortawesome/free-solid-svg-icons';
 import ShareButton from "../Share-button/share-button.components"
 
+// style={{backgroundImage:`url(${imgUrl})`}}
+
 const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Duration,Cast,imgUrl,Genre,Certification,Language,Distribution}) => {
     return(
         <div className="movie-movie-container">
-            <div className="image-container" style={{backgroundImage:`url(${imgUrl})`}}>
+            <div className="image-container" >
                 <div className="movie-all-texts">
                     <div className="movie-title-and-imdb-rating">
                         <span className="movie-title-on-main-movie-page">{MovieName}</span>
@@ -23,17 +25,17 @@ const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Duration,Cast,imgUr
                     </span>
                     <span className="movie-description-on-main-movie-page">{Desc}</span>
                     <span className="more-about-movie-on-main-movie-page">
-                        <span className="more-meta-data">
-                            <span className="left-column">Directors</span>
-                            <span className="right-column">{Director}</span>
+                        <span className="more-meta-data-movie-page">
+                            <span className="left-column-movie-page">Directors</span>
+                            <span className="right-column-movie-page">{Director}</span>
                         </span>
-                        <span className="more-meta-data">
-                            <span className="left-column">Starring</span>
-                            <span className="right-column">{Cast}</span>
+                        <span className="more-meta-data-movie-page">
+                            <span className="left-column-movie-page">Starring</span>
+                            <span className="right-column-movie-page">{Cast}</span>
                         </span>
-                        <span className="more-meta-data">
-                            <span className="left-column">Distributed By</span>
-                            <span className="right-column">{Distribution}</span>
+                        <span className="more-meta-data-movie-page">
+                            <span className="left-column-movie-page">Distributed By</span>
+                            <span className="right-column-movie-page">{Distribution}</span>
                         </span>
                     </span>
                     <div className="movie-play-button-container">
