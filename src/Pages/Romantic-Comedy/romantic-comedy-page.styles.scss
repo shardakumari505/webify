@@ -1,5 +1,5 @@
 .romantic-comedy-page-container{
-    height: auto;
+    height: 100vh;
     width: 100%;
     background: url('https://images.unsplash.com/photo-1515871204537-49a5fe66a31f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1082&q=80');
     background-repeat: no-repeat;
@@ -13,15 +13,46 @@
     margin-top: 10vh;
     color: aliceblue;
     font-size: 4rem;
+    font-weight: bold;
 }
 
 .romantic-movie-container{
-    width: 80%;
+    width: 90%;
     display: flex;
-    justify-content: space-around;
-    justify-content: space-evenly;
+    // justify-content: space-around;
+    // justify-content: space-evenly;
     margin-top: 50px;
+    overflow: hidden;
+    object-fit: contain;
+    z-index: 10;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-x: scroll;
 }
+
+.romantic-movie-container::-webkit-scrollbar {
+    margin-top: 0;
+    width: 20px;
+  }
+  
+  /* Track */
+  .romantic-movie-container::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0);  
+    // backdrop-filter: blur(0px);
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .romantic-movie-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(#283048,#859398); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .romantic-movie-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#283048,#859398); 
+  }
 
 .movie-link{
     text-decoration: none;
