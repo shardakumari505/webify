@@ -4,7 +4,7 @@ import Card from "../../Components/Card/card.component";
 import Card1 from "../../Components/Card1/card1.components";
 import { Link } from "react-router-dom";
 
-import { Grave, LionKing, SpiderMan, Spritedaway, Yourname } from "../../moviedata";
+import { Grave, LionKing, SpiderMan, Spiritedaway, Yourname } from "../../moviedata";
 
 
 const AnimePage = () => {
@@ -34,10 +34,10 @@ const AnimePage = () => {
                 /></Link>
 
                 <Link className="movie-link" to='/spiritedaway-movie'><Card
-                    MovieName={Spritedaway.MovieName}
-                    Desc={Spritedaway.Desc}
-                    imgUrl={Spritedaway.imgUrl}
-                    IMDB={Spritedaway.IMDB}
+                    MovieName={Spiritedaway.MovieName}
+                    Desc={Spiritedaway.Desc}
+                    imgUrl={Spiritedaway.imgUrl}
+                    IMDB={Spiritedaway.IMDB}
                 /></Link>
                 <Link className="movie-link" to='/yourname-movie'><Card
                     MovieName={Yourname.MovieName}

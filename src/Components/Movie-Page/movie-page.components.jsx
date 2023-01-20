@@ -1,7 +1,12 @@
 import React from "react";
 import './movie-page.styles.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
+import Card1 from "../Card1/card1.components";
+import { faShareNodes } from '@fortawesome/free-solid-svg-icons';
+import ShareButton from "../Share-button/share-button.components"
 
-const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Cast,imgUrl}) => {
+const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Duration,Cast,imgUrl,Genre,Certification,Language,Distribution}) => {
     return(
         <div className="movie-movie-container">
             <div className="image-container" style={{backgroundImage:`url(${imgUrl})`}}>
@@ -14,7 +19,7 @@ const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Cast,imgUrl}) => {
                         </span>
                     </div>
                     <span className="movie-details-on-main-movie-page">
-                        <span className="meta-data">{ReleaseYear} ‧ U/A ‧ Action ‧ English ‧ {Duration}</span>
+                        <span className="meta-data">{ReleaseYear} ‧ {Certification} ‧ {Genre} ‧ {Language} ‧ {Duration}</span>
                     </span>
                     <span className="movie-description-on-main-movie-page">{Desc}</span>
                     <span className="more-about-movie-on-main-movie-page">
@@ -28,7 +33,7 @@ const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Cast,imgUrl}) => {
                         </span>
                         <span className="more-meta-data">
                             <span className="left-column">Distributed By</span>
-                            <span className="right-column">Warner Bros. Pictures</span>
+                            <span className="right-column">{Distribution}</span>
                         </span>
                     </span>
                     <div className="movie-play-button-container">
