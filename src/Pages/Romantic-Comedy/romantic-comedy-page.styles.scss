@@ -1,17 +1,47 @@
 .romantic-comedy-page-container{
-    height: 100vh;
+    height: auto;
     width: 100%;
-    background: url('https://images.unsplash.com/photo-1515871204537-49a5fe66a31f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1082&q=80');
+    // background: url('https://images.unsplash.com/photo-1515871204537-49a5fe66a31f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1082&q=80');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #ffd8d8;
 }
+
+#couple {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    -webkit-filter: saturate(2);
+    filter: saturate(2);
+  }
+  
+  #hearts {
+    -webkit-animation: heartpulse 4s infinite;
+    animation: heartpulse 4s infinite;
+  }
+  
+  @keyframes heartpulse {
+    0% {
+      fill: #8c2d49;
+    }
+    50% {
+      fill: #8e485d;
+      scale: 1.1;
+      -webkit-transform: scale(1.1, 1.1);
+    }
+    100% {
+      fill: #a872a8;
+    }
+  }
+  
 
 .romantic-comedy-page-title-text{
     margin-top: 10vh;
-    color: aliceblue;
+    color: #8c2d49;
     font-size: 4rem;
     font-weight: bold;
 }
@@ -22,7 +52,8 @@
     display: flex;
     // justify-content: space-around;
     // justify-content: space-evenly;
-    margin-top: 50px;
+    // margin-top: 40px;
+    margin-bottom: 10vh;
     overflow: hidden;
     object-fit: contain;
     z-index: 10;
@@ -46,14 +77,15 @@
    
   /* Handle */
   .romantic-movie-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(#283048,#859398); 
+    background: linear-gradient(#E55D87,#5FC3E4); 
     border-radius: 10px;
   }
   
   /* Handle on hover */
   .romantic-movie-container::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(#283048,#859398); 
+    background: linear-gradient(#E55D87,#5FC3E4); 
   }
+
 
 .movie-link{
     text-decoration: none;
