@@ -7,6 +7,40 @@ import { Alien, Psycho, Shining, Thing, Tumbbad } from "../../moviedata";
 const HorrorPage = () => {
     return (
         <div className="horror-page-container">
+
+<div id='drop'>
+  <div id='menuicon'></div>
+  <ul id='line'>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+
             <div className="horror-page-title-text">Horror</div>
             <div className="horror-movie-container">
                 <Link className="movie-link" to='/alien-movie'><Card

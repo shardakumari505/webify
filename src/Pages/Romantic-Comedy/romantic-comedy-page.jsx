@@ -8,6 +8,7 @@ const RomanticComedyPage = () => {
     return (
         <div className="romantic-comedy-page-container">
             <div className="romantic-comedy-page-title-text">Romantic Comedy</div>
+            
             <div className="romantic-movie-container">
                 <Link className="movie-link" to='/chhichhore-movie'><Card
                     MovieName={Chhichhore.MovieName}

@@ -1,6 +1,7 @@
 html,body{
   font-size: 0.85vw;
   background-color: #1A1A1A;
+  scroll-behavior: smooth;
 }
 
 .App{
