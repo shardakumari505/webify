@@ -1,4 +1,4 @@
-.mystery-page-container{
+.mystery-page-container {
     height: 100vh;
     width: 100%;
     background: url('https://images.unsplash.com/photo-1580920790557-43158492adb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
@@ -9,146 +9,49 @@
     align-items: center;
 }
 
-.mystery-page-title-text{
+.mystery-page-title-text {
     margin-top: 10vh;
     color: aliceblue;
     font-weight: bold;
     font-size: 4rem;
 }
 
-.mystery-movie-container{
-    width: 90%;
+
+.mystery-movie-container {
+    width: 100%;
     display: flex;
     // justify-content: space-around;
     // justify-content: space-evenly;
     overflow: hidden;
     object-fit: contain;
     margin-top: 50px;
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
     overflow-x: scroll;
 }
 
 .mystery-movie-container::-webkit-scrollbar {
     margin-top: 0;
     width: 20px;
-  }
-  
-  /* Track */
-  .mystery-movie-container::-webkit-scrollbar-track {
-    background-color: rgba(255, 255, 255, 0);  
+}
+
+/* Track */
+.mystery-movie-container::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0);
     // backdrop-filter: blur(0px);
-    box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-  }
-   
-  /* Handle */
-  .mystery-movie-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(#283048,#859398); 
+}
+
+/* Handle */
+.mystery-movie-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(#283048, #859398);
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  .mystery-movie-container::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(#283048,#859398); 
-  }
-
-
-.main-card-container{
-    height: 40vh;
-    width: 250px;
-    border: 2px solid whitesmoke;
-    // padding: 50px;
-    // background: url('https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 10vh;
 }
 
-.lives-of-others{
-    background: url('https://images-na.ssl-images-amazon.com/images/S/pv-target-images/26e5e3ac050ed4af3c1ad353dc51777909324d85222c69d1e1abc8864e57ea33._RI_V_TTW_.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.mirror-game{
-    background: url('https://m.media-amazon.com/images/M/MV5BMmVmYWFkYWMtOThhZC00Y2VkLTkyNjMtYTBkNmE2ZTNlNmQzXkEyXkFqcGdeQXVyNjMxNjgwOTk@._V1_.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.rear-window{
-    background: url('https://images.fandango.com/ImageRenderer/400/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/104405/Rear-Window%20poster%20fandango.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.seven{
-    background: url('https://i.pinimg.com/originals/e5/4c/84/e54c844024a3f5823f5f6532ace4c92f.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.silence-of-lambs{
-    background: url('https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.main-card-container-before-hover{
-    height: 40vh;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    // background-color: aqua;
-}
-
-.main-card-container-top{
-    height: 35vh;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-}
-
-.main-card-container-top-text{
-    display: flex;
-    font-size: 2rem;
-    color: aliceblue;
-    padding: 10px;
-}
-
-.imdbicon{
-    width: 70px;
-}
-
-.main-card-container-bottom{
-    height: 8vh;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-.main-card-container-bottom-on-hover{
-    transform-origin: 0 100%;
-    width: 250px;
-    height: 25vh;
-    margin-top: -25vh;
-    background: #141414;
-    opacity: 0.7;
-    transition: transform .5s;
-    transform: scaleY(0);
-}
-
-.main-card-container:hover {
-    .main-card-container-bottom{
-        display: none;
-    }
-    .main-card-container-bottom-on-hover{
-        transform: scaleY(1);
-    }
+/* Handle on hover */
+.mystery-movie-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#283048, #859398);
 }

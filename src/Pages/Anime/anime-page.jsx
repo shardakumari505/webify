@@ -6,8 +6,10 @@ import { Link } from "react-router-dom";
 
 import { Grave, LionKing, SpiderMan, Spiritedaway, Yourname } from "../../moviedata";
 
+class AnimePage extends React.Component {
 
-const AnimePage = () => {
+
+    render(){
     return (
         <div className="anime-page-container">
             <div className="anime-page-title-text">Anime</div>
@@ -49,6 +51,7 @@ const AnimePage = () => {
             </div>
         </div>
     );
+}
 }
 
 export default AnimePage;

@@ -1,4 +1,4 @@
-.action-page-container{
+.action-page-container {
     height: 100vh;
     width: 100%;
     background: url('https://images3.alphacoders.com/137/137657.jpg');
@@ -10,41 +10,45 @@
     cursor: url('http://chrishawkins.us/blank.cur'), none;
     overflow-y: hidden;
 }
-  
-  .custom-cursor {
+
+.custom-cursor {
     position: absolute;
     // cursor: none;
-  }
+}
 
-  @-webkit-keyframes moveUp {
+@-webkit-keyframes moveUp {
     0% {
-      background: #FFB300;
-      top: 100%;
+        background: #FFB300;
+        top: 100%;
     }
-    50% {
-      top: 40%;
-    }
-    100% {
-      top: 50%;
-      background: #E0E0E0;
-    }
-  }
-  
-  @keyframes moveUp {
-    0% {
-      background: #FFB300;
-      top: 100%;
-    }
-    50% {
-      top: 40%;
-    }
-    100% {
-      top: 50%;
-      background: #E0E0E0;
-    }
-  }
 
-.action-page-title-text{
+    50% {
+        top: 40%;
+    }
+
+    100% {
+        top: 50%;
+        background: #E0E0E0;
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        background: #FFB300;
+        top: 100%;
+    }
+
+    50% {
+        top: 40%;
+    }
+
+    100% {
+        top: 50%;
+        background: #E0E0E0;
+    }
+}
+
+.action-page-title-text {
     margin-top: 10vh;
     color: aliceblue;
     font-weight: bold;
@@ -52,8 +56,8 @@
     z-index: 10;
 }
 
-.action-movie-container{
-    width: 90%;
+.action-movie-container {
+    width: 100%;
     display: flex;
     // justify-content: space-around;
     // justify-content: space-evenly;
@@ -61,145 +65,34 @@
     overflow: hidden;
     object-fit: contain;
     z-index: 10;
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
     overflow-x: scroll;
     animation-duration: 2s;
 }
 
-.action-movie-container.open{
-    
-}
-
-
-  .action-movie-container::-webkit-scrollbar {
+.action-movie-container::-webkit-scrollbar {
     margin-top: 0;
     width: 20px;
-  }
-  
-  /* Track */
-  .action-movie-container::-webkit-scrollbar-track {
-    background-color: rgba(255, 255, 255, 0);  
+}
+
+/* Track */
+.action-movie-container::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0);
     // backdrop-filter: blur(0px);
-    box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-  }
-   
-  /* Handle */
-  .action-movie-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(#283048,#859398); 
+}
+
+/* Handle */
+.action-movie-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(#283048, #859398);
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  .action-movie-container::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(#283048,#859398); 
-  }
-
-.main-card-container{
-    height: 40vh;
-    width: 250px;
-    border: 2px solid whitesmoke;
-    // padding: 50px;
-    // background: url('https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 10vh;
-    text-decoration: none;
 }
 
-.dark-knight{
-    background: url('https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.inception{
-    background: url('https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.lord-of-rings{
-    background: url('https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.matrix{
-    background: url('https://flxt.tmsimg.com/assets/p22804_p_v8_av.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.star-wars{
-    background: url('https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.main-card-container-before-hover{
-    height: 40vh;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    // background-color: aqua;
-}
-
-.main-card-container-top{
-    height: 35vh;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-}
-
-.main-card-container-top-text{
-    display: flex;
-    font-size: 2rem;
-    color: aliceblue;
-    padding: 10px;
-}
-
-.imdbicon{
-    width: 70px;
-}
-
-.main-card-container-bottom{
-    height: 8vh;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    background-color: #141414;
-}
-
-.main-card-container-bottom-on-hover{
-    transform-origin: 0 100%;
-    width: 250px;
-    height: 25vh;
-    margin-top: -25vh;
-    background: #141414;
-    opacity: 0.7;
-    transition: transform .5s;
-    transform: scaleY(0);
-}
-
-.main-card-container:hover {
-    .main-card-container-bottom{
-        display: none;
-    }
-    .main-card-container-bottom-on-hover{
-        transform: scaleY(1);
-    }
-}
-
-Link{
-    text-decoration: none;
-}
-link{
-    text-decoration: none;
+/* Handle on hover */
+.action-movie-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#283048, #859398);
 }
