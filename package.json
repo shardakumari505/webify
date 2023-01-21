@@ -19,6 +19,7 @@
     "react-native-background-audio": "^1.1.4",
     "react-native-web": "^0.18.10",
     "react-router-dom": "^6.6.2",
+    "react-script-tag": "^1.1.2",
     "react-scripts": "5.0.1",
     "sass": "^1.57.1",
     "use-sound": "^4.0.1",

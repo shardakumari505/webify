@@ -37,17 +37,61 @@
 
 .container {
     // position: absolute;
-    height: 300px;
-    width: 600px;
+    height: auto;
+    width: 100%;
     top: 60px;
+    margin-bottom: 10vh;
     left: calc(50% - 300px);
     display: flex;
   }
   
-  .card {
+  .card1 {
     display: flex;
-    height: 280px;
-    width: 200px;
+    height: 63vh;
+    width: 420px;
+    z-index: 5;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+
+  .card2 {
+    display: flex;
+    height: 63vh;
+    width: 420px;
+    z-index: 5;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+
+  .card3 {
+    display: flex;
+    height: 63vh;
+    width: 420px;
+    z-index: 6;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+
+  .card4 {
+    display: flex;
+    height: 63vh;
+    width: 420px;
+    z-index: 7;
     background-color: #17141d;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
@@ -57,20 +101,65 @@
     left: 0px;
   }
   
-  .card:not(:first-child) {
-      margin-left: -50px;
+  .card1:not(:first-child) {
+      margin-left: -150px;
   }
   
-  .card:hover {
+  .card1:hover {
     transform: translateY(-20px);
     transition: 0.4s ease-out;
   }
   
-  .card:hover ~ .card {
+  .card1:hover ~ .card1 {
     position: relative;
     left: 50px;
     transition: 0.4s ease-out;
   }
+
+  .card2:not(:first-child) {
+    margin-left: -150px;
+}
+
+.card2:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card2:hover ~ .card2 {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.card3:not(:first-child) {
+  margin-left: -150px;
+}
+
+.card3:hover {
+transform: translateY(-20px);
+transition: 0.4s ease-out;
+}
+
+.card3:hover ~ .card3 {
+position: relative;
+left: 50px;
+transition: 0.4s ease-out;
+}
+
+.card4:not(:first-child) {
+  margin-left: -150px;
+}
+
+.card4:hover {
+transform: translateY(-20px);
+transition: 0.4s ease-out;
+}
+
+.card4:hover ~ .card4 {
+position: relative;
+left: 50px;
+transition: 0.4s ease-out;
+}
   
   .title {
     color: white;

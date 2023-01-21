@@ -7,45 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: url('http://chrishawkins.us/blank.cur'), none;
     overflow-y: hidden;
-}
-
-.custom-cursor {
-    position: absolute;
-    // cursor: none;
-}
-
-@-webkit-keyframes moveUp {
-    0% {
-        background: #FFB300;
-        top: 100%;
-    }
-
-    50% {
-        top: 40%;
-    }
-
-    100% {
-        top: 50%;
-        background: #E0E0E0;
-    }
-}
-
-@keyframes moveUp {
-    0% {
-        background: #FFB300;
-        top: 100%;
-    }
-
-    50% {
-        top: 40%;
-    }
-
-    100% {
-        top: 50%;
-        background: #E0E0E0;
-    }
 }
 
 .action-page-title-text {

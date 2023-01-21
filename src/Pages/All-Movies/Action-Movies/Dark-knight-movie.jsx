@@ -3,6 +3,7 @@ import './Dark-knight-movie.styles.scss';
 import MoviePage from "../../../Components/Movie-Page/movie-page.components";
 import { Darknight } from "../../../moviedata";
 
+
 const DarkKnight = () => {
     return(
         <div className="movie-main-page">

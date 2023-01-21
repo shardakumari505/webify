@@ -3,9 +3,9 @@ import './genres-card.styles.scss';
 import { Link } from "react-router-dom";
 
 const GenresCard = () => {
-    return(
+    return (
         <div className="genres-card-container">
-            <Link className="genres-card horror" to="/horrorpage" >
+            {/* <Link className="genres-card horror" to="/horrorpage" >
                 <div className="genres-card horror" id='horror-page'>
                     <h5 className="">Horror</h5>
                 </div>
@@ -33,7 +33,27 @@ const GenresCard = () => {
                 <div className="genres-card action" id='action-page'>
                     <h5 className="">Action</h5>
                 </div>
-            </Link>
+            </Link> */}
+
+            <div class="genres-container">
+                <div class="genre-panel active" style={{backgroundImage: `url(https://images3.alphacoders.com/106/thumb-1920-1061065.png)`}}>
+                    <h3>Horror</h3>
+                </div>
+
+                <div class="genre-panel" style={{backgroundImage: `url('https://wallpaperaccess.com/full/5283070.jpg')`}}>
+                    <h3>Romantic Comedy</h3>
+                </div>
+                <div class="genre-panel" style={{backgroundImage: `url('https://images8.alphacoders.com/103/thumb-1920-1034735.png')`}}>
+                    <h3>Mystery</h3>
+                </div>
+                <div class="genre-panel" style={{backgroundImage: `url('https://wallpaperaccess.com/full/5112296.jpg')`}}>
+                    <h3>Anime</h3>
+                </div>
+                <div class="genre-panel" style={{backgroundImage: `url('https://wallpaperaccess.com/full/3518463.jpg')`}}>
+                    <h3>Action</h3>
+                </div>
+            </div>
+
         </div>
     );
 }

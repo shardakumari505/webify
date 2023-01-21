@@ -6,55 +6,23 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import Card from "../Card/card.component";
 import { Darknight } from "../../moviedata";
 
-const Card1 = () => {
+const Card1 = (imgUrl) => {
   return (<>
     <div className="container">
-      <div className="card">
+      <div className="card1">
         <Card MovieName={Darknight.MovieName} Desc={Darknight.Desc} />
-        {/* <div className="circle">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <circle className="stroke" cx="60" cy="60" r="50" />
-          </svg>
-        </div> */}
       </div>
 
-      <div className="card">
-        <h3 className="title">Card 2</h3>
-        <div className="bar">
-          <div className="emptybar"></div>
-          <div className="filledbar"></div>
-        </div>
-        {/* <div className="circle">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <circle className="stroke" cx="60" cy="60" r="50" />
-          </svg>
-        </div> */}
+      <div className="card2">
+      <Card MovieName={Darknight.MovieName} Desc={Darknight.Desc} />
       </div>
 
-      <div className="card">
-        <h3 className="title">Card 3</h3>
-        <div className="bar">
-          <div className="emptybar"></div>
-          <div className="filledbar"></div>
-        </div>
-        {/* <div className="circle">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <circle className="stroke" cx="60" cy="60" r="50" />
-          </svg>
-        </div> */}
+      <div className="card3">
+      <Card MovieName={Darknight.MovieName} Desc={Darknight.Desc} />
       </div>
 
-      <div className="card">
-        <h3 className="title">Card 4</h3>
-        <div className="bar">
-          <div className="emptybar"></div>
-          <div className="filledbar"></div>
-        </div>
-        {/* <div className="circle">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <circle className="stroke" cx="60" cy="60" r="50" />
-          </svg>
-        </div> */}
+      <div className="card4">
+      <Card MovieName={Darknight.MovieName} Desc={Darknight.Desc} />
       </div>
     </div>
   </>)
