@@ -1,5 +1,5 @@
 .romantic-comedy-page-container {
-  height: auto;
+  height: 100vh;
   width: 100%;
   // background: url('https://images.unsplash.com/photo-1515871204537-49a5fe66a31f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1082&q=80');
   background-repeat: no-repeat;
@@ -8,6 +8,11 @@
   flex-direction: column;
   align-items: center;
   background-color: #ffd8d8;
+}
+
+
+.romantic-page-top-container{
+  display: flex;
 }
 
 #couple {
@@ -46,16 +51,22 @@
   color: #8c2d49;
   font-size: 4rem;
   font-weight: bold;
+  // background-color: aquamarine;
 }
 
+.romantic-gif{
+  // background-color: aqua;
+  margin-top: 10vh;
+}
 
 .romantic-movie-container {
   width: 100%;
   display: flex;
+  // margin-top: 10vh;
   // justify-content: space-around;
   // justify-content: space-evenly;
   // margin-top: 40px;
-  margin-bottom: 10vh;
+  // margin-bottom: 10vh;
   overflow: hidden;
   object-fit: contain;
   z-index: 10;

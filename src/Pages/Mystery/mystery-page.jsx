@@ -4,12 +4,16 @@ import Card from "../../Components/Card/card.component";
 import Card1 from "../../Components/Card1/card1.components";
 import { Link } from "react-router-dom";
 import { LivesofOthers, MirrorGame, RearWindow, Seven, SilenceofLambs } from "../../moviedata";
+import $ from 'jquery';
+import useSound from 'use-sound';
+import Mysterysong from './mysterysong.mp3'
 
 const MysteryPage = () => {
-
+    const [play, { stop }] = useSound(Mysterysong);
 
     return (
         <div className="mystery-page-container">
+            {/* <button className="mysterysong-button" onMouseEnter={() => play()} onMouseLeave={() => stop()}> */}
             <div className="mystery-page-title-text">Mystery</div>
             <div className="mystery-movie-container">
                 <Link className="movie-link" to='/livesofothers-movie'><Card
@@ -43,8 +47,9 @@ const MysteryPage = () => {
                     imgUrl={SilenceofLambs.imgUrl}
                 /></Link>
             </div>
+            {/* </button> */}
         </div>
     );
-}
+    }
 
 export default MysteryPage;
