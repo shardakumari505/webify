@@ -3,7 +3,6 @@ import './Dark-knight-movie.styles.scss';
 import MoviePage from "../../../Components/Movie-Page/movie-page.components";
 import { Darknight,LordOfTheRings,Inception,Matrix,StarWars } from "../../../moviedata";
 import Card1 from "../../../Components/Card1/card1.components";
-import Dropmenu from "../../../Components/Dropmenu-button/Dropmenu.components";
 
 
 const DarkKnight = () => {

@@ -1,11 +1,8 @@
 import React from "react";
 import './navbar.styles.scss';
-import SearchIcon from "../search-icon/search-icon";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBell } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
-import ProfilePage from "../../Pages/Profile-page/profile.page";
 
 class Navbar extends React.Component{
 

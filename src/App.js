@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './Components/Navbar/navbar.components';
-import Card1 from './Components/Card1/card1.components';
 import Dashboard from './Pages/Dashboard/dashboard.components';
 import HorrorPage from './Pages/Horror/horror-page';
 import RomanticComedyPage from './Pages/Romantic-Comedy/romantic-comedy-page';

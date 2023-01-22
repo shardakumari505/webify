@@ -24,17 +24,17 @@ const ProfilePage = () => {
 
                     <span className="current-job">Upcoming SDE Intern at Microsoft</span>
                     <span class="profile-social-links">
-                        <a target="_blank" href="https://www.linkedin.com/in/ksharda/">
+                        <a target="_blank" href="https://www.linkedin.com/in/ksharda/" rel="noreferrer">
                             <i class="fa fa-linkedin my-icon linkedin"></i>
                         </a>
-                        <a target="_blank" href="https://github.com/shardakumari505">
+                        <a target="_blank" href="https://github.com/shardakumari505" rel="noreferrer">
                             <i class="fa fa-github my-icon"></i>
                         </a>
-                        <a target="_blank" href="https://www.instagram.com/sharda2282/">
+                        <a target="_blank" href="https://www.instagram.com/sharda2282/" rel="noreferrer">
 
                             <i class="fa fa-instagram my-icon insta"></i>
                         </a>
-                        <a target="_blank" href="https://twitter.com/sharda9_singh">
+                        <a target="_blank" href="https://twitter.com/sharda9_singh" rel="noreferrer">
                             <i class="fa fa-twitter my-icon"></i>
                         </a>
                     </span>
@@ -71,17 +71,17 @@ const ProfilePage = () => {
 
                         <span className="current-job">SDE Intern at ELDAAS</span>
                         <span class="profile-social-links">
-                            <a target="_blank" href="https://www.linkedin.com/in/sameer-kumar-shrivastava/">
+                            <a target="_blank" href="https://www.linkedin.com/in/sameer-kumar-shrivastava/" rel="noreferrer">
                                 <i class="fa fa-linkedin my-icon linkedin"></i>
                             </a>
-                            <a target="_blank" href="https://github.com/sameer-kumar-shrivastava">
+                            <a target="_blank" href="https://github.com/sameer-kumar-shrivastava" rel="noreferrer">
                                 <i class="fa fa-github my-icon"></i>
                             </a>
-                            <a target="_blank" href="https://www.instagram.com/sameer__shrivastava/">
+                            <a target="_blank" href="https://www.instagram.com/sameer__shrivastava/" rel="noreferrer">
 
                                 <i class="fa fa-instagram my-icon insta"></i>
                             </a>
-                            <a target="_blank" href="https://twitter.com/i_sameer21">
+                            <a target="_blank" href="https://twitter.com/i_sameer21" rel="noreferrer">
                                 <i class="fa fa-twitter my-icon"></i>
                             </a>
                         </span>

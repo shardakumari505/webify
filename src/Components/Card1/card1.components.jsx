@@ -1,8 +1,5 @@
-import React,{useState} from "react";
+import React from "react";
 import './card1.styles.scss';
-import Imdb from './imdb.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
 import Card from "../Card/card.component";
 
 

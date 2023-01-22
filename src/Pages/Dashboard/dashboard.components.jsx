@@ -1,8 +1,6 @@
 import React from "react";
 import './dashboard.styles.scss';
 import GenresCard from "../../Components/genres-card/genres-card";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from "react-router-dom";
 import Dropmenu from "../../Components/Dropmenu-button/Dropmenu.components";
 
 const Dashboard = () => {
