@@ -59,7 +59,7 @@ const ProfilePage = () => {
 
             <div className="profile-card-two">
                 <div class="pr-card">
-                    <div class="imgBx">
+                    <div class="imgBx imgSameer">
                         <img src={Sameer} alt="" />
                     </div>
 
@@ -89,15 +89,15 @@ const ProfilePage = () => {
                         <ul className="experience">
                             <li>Ninja Entrepreneur at Coding Ninjas</li>
                             <li>Web Developer at Vaguss</li>
-                            <li>Club Incharge & Council Member at Coding Club, SIT</li>
                             <li>Frontend Developer at Executive Strokes</li>
+                            <li>Club Incharge & Council Member at Coding Club, SIT</li>
                             <li>Content Developer at Doubtnut</li>
                         </ul>
                         <span className="interest">Achievements</span>
                         <ul className="experience">
-                            <li>All India Topper of NPTEL Course, IIT Roorkee</li>
                             <li>Winner of Technical Paper presentation at National Technical Symposium</li>
                             <li>First Runner Up in webathon at WebdevnElan , IIT Hyderabad</li>
+                            <li>All India Topper of NPTEL Course, IIT Roorkee</li>
                             <li>Indigo Squad Member, IIT Bombay</li>
                         </ul>
                     </div>
