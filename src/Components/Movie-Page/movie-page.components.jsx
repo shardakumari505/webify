@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import Card1 from "../Card1/card1.components";
 import { faShareNodes } from '@fortawesome/free-solid-svg-icons';
-import ShareButton from "../Share-button/share-button.components"
+import ShareButton from "../Share-button/share-button.components";
+import Dropmenu from "../Dropmenu-button/Dropmenu.components";
 
 // style={{backgroundImage:`url(${imgUrl})`}}
 
@@ -56,8 +57,7 @@ const MoviePage = ({ MovieName, IMDB, ReleaseYear, Desc, Director, Duration, Cas
                     </div>
                 </div>
             </div>
-
-
+            <Dropmenu nextblock="more-movie-movie-container" />
         </div>
     );
 }

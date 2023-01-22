@@ -10,7 +10,7 @@ const PsychoPage = () => {
     return(
         <div className="psycho-movie-container">
             <MoviePage MovieName={Psycho.MovieName} ReleaseYear={Psycho.ReleaseYear} Desc={Psycho.Desc} IMDB={Psycho.IMDB} Director={Psycho.Director} Duration={Psycho.Duration} Cast={Psycho.Cast} Genre={Psycho.Genre} Certification={Psycho.Certification} Language={Psycho.Language} Distribution={Psycho.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"> <Link className="movie-link" to='/alien-movie'><Card1

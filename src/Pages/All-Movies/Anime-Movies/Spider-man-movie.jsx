@@ -9,7 +9,7 @@ const SpidermanPage = () => {
     return(
         <div className="alien-movie-container">
             <MoviePage MovieName={SpiderMan.MovieName} ReleaseYear={SpiderMan.ReleaseYear} Desc={SpiderMan.Desc} IMDB={SpiderMan.IMDB} Director={SpiderMan.Director} Duration={SpiderMan.Duration} Cast={SpiderMan.Cast} Genre={SpiderMan.Genre} Certification={SpiderMan.Certification} Language={SpiderMan.Language} Distribution={SpiderMan.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"><Link className="movie-link" to='/lionking-movie'><Card1

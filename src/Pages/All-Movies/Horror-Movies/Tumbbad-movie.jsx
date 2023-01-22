@@ -10,7 +10,7 @@ const TumbbadPage = () => {
     return(
         <div className="tumbbad-movie-container">
             <MoviePage MovieName={Tumbbad.MovieName} ReleaseYear={Tumbbad.ReleaseYear} Desc={Tumbbad.Desc} IMDB={Tumbbad.IMDB} Director={Tumbbad.Director} Duration={Tumbbad.Duration} Cast={Tumbbad.Cast} Genre={Tumbbad.Genre} Certification={Tumbbad.Certification} Language={Tumbbad.Language} Distribution={Tumbbad.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"> <Link className="movie-link" to='/psycho-movie'><Card1

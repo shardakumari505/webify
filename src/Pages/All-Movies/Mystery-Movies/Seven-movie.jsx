@@ -10,7 +10,7 @@ const SevenPage = () => {
     return(
         <div className="seven-movie-container">
             <MoviePage MovieName={Seven.MovieName} ReleaseYear={Seven.ReleaseYear} Desc={Seven.Desc} IMDB={Seven.IMDB} Director={Seven.Director} Duration={Seven.Duration} Cast={Seven.Cast} Genre={Seven.Genre} Certification={Seven.Certification} Language={Seven.Language} Distribution={Seven.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"> <Link className="movie-link" to='/mirrorgame-movie'><Card1

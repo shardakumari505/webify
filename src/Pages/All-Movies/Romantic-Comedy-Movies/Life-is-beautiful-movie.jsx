@@ -10,7 +10,7 @@ const LifeIsBeautifulPage = () => {
     return(
         <div className="alien-movie-container">
             <MoviePage MovieName={LifeIsBeautiful.MovieName} ReleaseYear={LifeIsBeautiful.ReleaseYear} Desc={LifeIsBeautiful.Desc} IMDB={LifeIsBeautiful.IMDB} Director={LifeIsBeautiful.Director} Duration={LifeIsBeautiful.Duration} Cast={LifeIsBeautiful.Cast} Genre={LifeIsBeautiful.Genre} Certification={LifeIsBeautiful.Certification} Language={LifeIsBeautiful.Language} Distribution={LifeIsBeautiful.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"><Link className="movie-link" to='/citylights-movie'><Card1

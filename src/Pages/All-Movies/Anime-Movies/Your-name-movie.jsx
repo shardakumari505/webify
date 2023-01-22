@@ -9,7 +9,7 @@ const YourName = () => {
     return(
         <div className="alien-movie-container">
             <MoviePage MovieName={Yourname.MovieName} ReleaseYear={Yourname.ReleaseYear} Desc={Yourname.Desc} IMDB={Yourname.IMDB} Director={Yourname.Director} Duration={Yourname.Duration} Cast={Yourname.Cast} Genre={Yourname.Genre} Certification={Yourname.Certification} Language={Yourname.Language} Distribution={Yourname.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"><Link className="movie-link" to='/lionking-movie'><Card1

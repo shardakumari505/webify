@@ -8,7 +8,7 @@ const MatrixPage = () => {
     return(
         <div className="alien-movie-container">
             <MoviePage MovieName={Matrix.MovieName} ReleaseYear={Matrix.ReleaseYear} Desc={Matrix.Desc} IMDB={Matrix.IMDB} Director={Matrix.Director} Duration={Matrix.Duration} Cast={Matrix.Cast} Genre={Matrix.Genre} Certification={Matrix.Certification} Language={Matrix.Language} Distribution={Matrix.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"><Card1 MovieName={LordOfTheRings.MovieName} imgUrl={LordOfTheRings.imgUrl} Desc={LordOfTheRings.Desc} IMDB={LordOfTheRings.IMDB} /></div>

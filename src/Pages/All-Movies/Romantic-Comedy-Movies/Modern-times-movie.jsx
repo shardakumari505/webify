@@ -10,7 +10,7 @@ const ModernTimesPage = () => {
     return(
         <div className="modern-times-movie-container">
             <MoviePage MovieName={ModernTimes.MovieName} ReleaseYear={ModernTimes.ReleaseYear} Desc={ModernTimes.Desc} IMDB={ModernTimes.IMDB} Director={ModernTimes.Director} Duration={ModernTimes.Duration} Cast={ModernTimes.Cast} Genre={ModernTimes.Genre} Certification={ModernTimes.Certification} Language={ModernTimes.Language} Distribution={ModernTimes.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"><Link className="movie-link" to='/citylights-movie'><Card1

@@ -10,7 +10,7 @@ const GraveofFireflies = () => {
     return(
         <div className="alien-movie-container">
             <MoviePage MovieName={Grave.MovieName} ReleaseYear={Grave.ReleaseYear} Desc={Grave.Desc} IMDB={Grave.IMDB} Director={Grave.Director} Duration={Grave.Duration} Cast={Grave.Cast} Genre={Grave.Genre} Certification={Grave.Certification} Language={Grave.Language} Distribution={Grave.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"><Link className="movie-link" to='/lionking-movie'><Card1

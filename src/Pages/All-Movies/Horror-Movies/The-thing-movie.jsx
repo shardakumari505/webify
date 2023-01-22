@@ -10,7 +10,7 @@ const TheThing = () => {
     return(
         <div className="thing-movie-container">
             <MoviePage MovieName={Thing.MovieName} ReleaseYear={Thing.ReleaseYear} Desc={Thing.Desc} IMDB={Thing.IMDB} Director={Thing.Director} Duration={Thing.Duration} Cast={Thing.Cast} Genre={Thing.Genre} Certification={Thing.Certification} Language={Thing.Language} Distribution={Thing.Distribution} />
-            <div className="more-movie-movie-container">            
+            <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"> <Link className="movie-link" to='/psycho-movie'><Card1

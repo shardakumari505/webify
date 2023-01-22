@@ -8,7 +8,7 @@ const LordofRings = () => {
     return(
         <div className="alien-movie-container">
             <MoviePage MovieName={LordOfTheRings.MovieName} ReleaseYear={LordOfTheRings.ReleaseYear} Desc={LordOfTheRings.Desc} IMDB={LordOfTheRings.IMDB} Director={LordOfTheRings.Director} Duration={LordOfTheRings.Duration} Cast={LordOfTheRings.Cast} Genre={LordOfTheRings.Genre} Certification={LordOfTheRings.Certification} Language={LordOfTheRings.Language} Distribution={LordOfTheRings.Distribution} />
-            <div className="more-movie-movie-container">
+            <div className="more-movie-movie-container" id="more-movie-movie-container">
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
                     <div className="card1-container-movie"><Card1 MovieName={Inception.MovieName} imgUrl={Inception.imgUrl} Desc={Inception.Desc} IMDB={Inception.IMDB} /></div>
