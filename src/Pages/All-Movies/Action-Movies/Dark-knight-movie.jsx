@@ -9,7 +9,7 @@ import Dropmenu from "../../../Components/Dropmenu-button/Dropmenu.components";
 const DarkKnight = () => {
     return(
         <div className="movie-main-page">
-                 <MoviePage MovieName={Darknight.MovieName} ReleaseYear={Darknight.ReleaseYear} Desc={Darknight.Desc} IMDB={Darknight.IMDB} Director={Darknight.Director} Duration={Darknight.Duration} Cast={Darknight.Cast} Genre={Darknight.Genre} Certification={Darknight.Certification} Language={Darknight.Language} Distribution={Darknight.Distribution} />
+                 <MoviePage MovieName={Darknight.MovieName} ReleaseYear={Darknight.ReleaseYear} Desc={Darknight.Desc} IMDB={Darknight.IMDB} Director={Darknight.Director} Duration={Darknight.Duration} Cast={Darknight.Cast} Genre={Darknight.Genre} Certification={Darknight.Certification} Language={Darknight.Language} Distribution={Darknight.Distribution} mimgUrl={Darknight.mimgUrl} />
                  <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container" id="movie-movie-cards-container">
