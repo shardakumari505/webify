@@ -13,7 +13,8 @@ export const Darknight = {
     Distribution: "Warner Bros. Pictures",
     Language: "English",
     reviews:"",
-    imgUrl:"https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg"
+    imgUrl:"https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg",
+    mimgUrl:"https://wallpapercave.com/wp/wp2587956.jpg"
 
 };
 
@@ -31,7 +32,8 @@ export const LordOfTheRings = {
     Distribution: "New Line Cinema",
     Language: "English",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+    mimgUrl:"https://a-static.besthdwallpaper.com/the-lord-of-the-rings-the-return-of-the-king-wallpaper-1920x1080-87135_48.jpg"
 
 };
 
@@ -48,7 +50,8 @@ export const Inception = {
     Distribution: "Warner Bros. Pictures",
     Language: "English",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg",
+    mimgUrl:"https://c4.wallpaperflare.com/wallpaper/662/716/947/inception-movies-movie-scenes-group-of-people-wallpaper-preview.jpg"
 
 };
 
@@ -65,7 +68,8 @@ export const Matrix = {
     Distribution: "Warner Bros. (worldwide)  •  Roadshow Entertainment (Australia)",
     Language: "English",
     reviews:"",
-    imgUrl:"https://flxt.tmsimg.com/assets/p22804_p_v8_av.jpg"
+    imgUrl:"https://flxt.tmsimg.com/assets/p22804_p_v8_av.jpg",
+    mimgUrl:"https://wallpaperaccess.com/full/3148355.jpg"
 
 };
 
@@ -82,7 +86,8 @@ export const StarWars = {
     Distribution: "20th Century Fox",
     Language: "English",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+    mimgUrl:"https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701316168.jpg"
 
 };
 
@@ -101,7 +106,8 @@ export const Grave = {
     Distribution: "Toho",
     Language: "Japanese",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg",
+    mimgUrl:"https://c4.wallpaperflare.com/wallpaper/999/646/496/dark-cemetery-graveyard-moonlight-tomb-hd-wallpaper-preview.jpg"
 
 };
 
@@ -118,7 +124,8 @@ export const LionKing = {
     Distribution: "Buena Vista Pictures Distribution",
     Language: "English",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_.jpg",
+    mimgUrl:"https://wallpaperaccess.com/full/861144.jpg"
 
 };
 
@@ -136,7 +143,8 @@ export const SpiderMan = {
     Distribution: "Sony Pictures Releasing",
     Language: "English",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
+    mimgUrl:"https://c4.wallpaperflare.com/wallpaper/329/415/800/spider-man-spider-man-ps4-video-game-wallpaper-preview.jpg"
 
 };
 
@@ -154,7 +162,8 @@ export const Spiritedaway= {
     Distribution: "Toho",
     Language: "Japanese",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+    mimgUrl:"https://rare-gallery.com/uploads/posts/1000245-illustration-anime-anime-girls-minimalism-mask-Spirited-Away-green-color-hand-shape-photograph-image.jpg"
 
 };
 
@@ -172,7 +181,8 @@ export const Yourname = {
     Distribution: "Toho",
     Language: "Japanese",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BNGYyNmI3M2YtNzYzZS00OTViLTkxYjAtZDIyZmE1Y2U1ZmQ2XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BNGYyNmI3M2YtNzYzZS00OTViLTkxYjAtZDIyZmE1Y2U1ZmQ2XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+    mimgUrl:"https://wallpaperaccess.com/full/130408.jpg"
 
 };
 
@@ -191,7 +201,8 @@ export const Alien= {
     Distribution: "20th Century Fox",
     Language: "English",
     reviews:"",
-    imgUrl:"https://cdn.shopify.com/s/files/1/0969/9128/products/alien--covenant-the-official-collector--s-edition-cover-102516_1a9162a0-d5b6-4288-896b-af6caf2c71b6.jpg?v=1514034484"
+    imgUrl:"https://cdn.shopify.com/s/files/1/0969/9128/products/alien--covenant-the-official-collector--s-edition-cover-102516_1a9162a0-d5b6-4288-896b-af6caf2c71b6.jpg?v=1514034484",
+    mimgUrl:"https://wallpaperaccess.com/full/341411.png"
 
 };
 
@@ -209,7 +220,8 @@ export const Psycho = {
     Distribution: "Paramount Pictures",
     Language: "English",
     reviews:"",
-    imgUrl:"https://i.etsystatic.com/21420603/r/il/81fd11/2782690640/il_fullxfull.2782690640_nn4r.jpg"
+    imgUrl:"https://i.etsystatic.com/21420603/r/il/81fd11/2782690640/il_fullxfull.2782690640_nn4r.jpg",
+    mimgUrl:"https://w0.peakpx.com/wallpaper/1005/120/HD-wallpaper-movie-american-psycho.jpg"
 
 };
 
@@ -227,7 +239,8 @@ export const Shining = {
     Distribution: "Warner Bros. (United States)  •  Columbia-EMI-Warner Distributors (United Kingdom)",
     Language: "English",
     reviews:"",
-    imgUrl:"https://alternativemovieposters.com/wp-content/uploads/2022/10/Stella-Ygris_Shining.jpg"
+    imgUrl:"https://alternativemovieposters.com/wp-content/uploads/2022/10/Stella-Ygris_Shining.jpg",
+    mimgUrl:"https://wallpaperaccess.com/full/1452026.jpg"
 
 };
 
@@ -245,7 +258,8 @@ export const Thing = {
     Language: "English",
     Certification: "A",
     reviews:"",
-    imgUrl:"https://images-na.ssl-images-amazon.com/images/I/61Mf%2B-TcV8L.jpg"
+    imgUrl:"https://images-na.ssl-images-amazon.com/images/I/61Mf%2B-TcV8L.jpg",
+    mimgUrl:"https://w0.peakpx.com/wallpaper/958/393/HD-wallpaper-movie-the-thing-1982.jpg"
 
 };
 
@@ -263,7 +277,8 @@ export const Tumbbad = {
     Distribution: "Eros International",
     Language: "Hindi  Swedish",
     reviews:"",
-    imgUrl:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7cH-3XEfQCfzUFHQLL4OhYPL-SYcNUUoWsW1cqUAK_y8Tp8K"
+    imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lwsefIF_dHj01pdCK1qJ6aqLlAu7juX2Oe9ZjazQ&s",
+    mimgUrl:""
 
 };
 

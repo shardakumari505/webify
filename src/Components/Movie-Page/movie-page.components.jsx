@@ -9,10 +9,10 @@ import Dropmenu from "../Dropmenu-button/Dropmenu.components";
 
 // style={{backgroundImage:`url(${imgUrl})`}}
 
-const MoviePage = ({ MovieName, IMDB, ReleaseYear, Desc, Director, Duration, Cast, imgUrl, Genre, Certification, Language, Distribution }) => {
+const MoviePage = ({ MovieName, IMDB, ReleaseYear, Desc, Director, Duration, Cast, imgUrl, Genre, Certification, Language, Distribution,mimgUrl }) => {
     return (
         <div className="movie-movie-container">
-            <div className="image-container" ><div className="image-overlay"></div>
+            <div className="image-container" style={{backgroundImage:`url(${mimgUrl})`}} ><div className="image-overlay"></div>
                 <div className="movie-all-texts">
                     <div className="movie-title-and-imdb-rating1">
                         <span className="movie-title-on-main-movie-page1">{MovieName}</span>
