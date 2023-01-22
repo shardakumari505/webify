@@ -1,6 +1,5 @@
 import React from "react";
 import './horror-page.styles.scss';
-import Card1 from "../../Components/Card1/card1.components";
 import { Link } from "react-router-dom";
 import Card from "../../Components/Card/card.component";
 import { Alien, Psycho, Shining, Thing, Tumbbad } from "../../moviedata";

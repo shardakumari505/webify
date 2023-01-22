@@ -407,8 +407,6 @@ export const CityLights = {
     Duration:"1h 21m",
     Genre : "Romatic Comedy",
     Certification: "U",
-    Distribution: "Paramount Pictures",
-    Language: "English",
     Distribution: "United Artists",
     Language: "English",
     reviews:"",
