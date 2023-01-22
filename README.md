@@ -13,7 +13,6 @@ CinePhiles is a one stop solution for all movie lovers
 - node >= 16.14.2 
  
 
-
 # Getting Started with CinePhiles
 In the terminal, you can run:
 
@@ -23,12 +22,6 @@ cd webify
 npm install     #Installing dependencies
 npm start       #Starting dev server
 ```
-## Features
-- Real Time Collaborative Code Editor with live video and audio calls. Enjoy your favorite music while working on the same platform.
-- Connect to Teams via Virtual Chamber, invite friends, teams and connect via text/video/audio.
-- Read and Share Blogs
-- Personal Task List
-- Music for good mood :)
 
 ## Built With
 
@@ -65,7 +58,6 @@ npm start       #Starting dev server
 
 
  
-
 
 ## Authors
 
