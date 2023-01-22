@@ -391,7 +391,7 @@ export const Chhichhore = {
     Distribution: "Walt Disney Studios  •  Motion Pictures",
     Language: "Hindi",
     reviews:"",
-    imgUrl:"https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Chhichhore_Poster.jpg/220px-Chhichhore_Poster.jpg",
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BNmQ1ZWVkYzctYzlmNy00MTMxLWEwZmItM2I4ZTRhNjY5ODBjXkEyXkFqcGdeQXVyMTA1MzU4Mjk5._V1_.jpg",
     mimgUrl:"https://wallpaperaccess.com/full/3410107.jpg"
 
 };
