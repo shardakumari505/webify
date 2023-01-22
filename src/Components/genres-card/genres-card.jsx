@@ -1,8 +1,53 @@
-import React from "react";
+import React,{useState} from "react";
 import './genres-card.styles.scss';
 import { Link } from "react-router-dom";
 
 const GenresCard = () => {
+    const [is1Active, set1Active] = useState(true);
+    const [is2Active, set2Active] = useState(false);
+    const [is3Active, set3Active] = useState(false);
+    const [is4Active, set4Active] = useState(false);
+    const [is5Active, set5Active] = useState(false);
+
+    const HandleClick1 = () => {
+        set1Active(!is1Active)
+        set2Active(false)
+        set3Active(false)
+        set4Active(false)
+        set5Active(false)
+        
+    }
+    const HandleClick2 = () => {
+        set1Active(false)
+        set2Active(!is2Active)
+        set3Active(false)
+        set4Active(false)
+        set5Active(false)
+    }
+
+    const HandleClick3 = () => {
+        set1Active(false)
+        set2Active(false)
+        set3Active(!is3Active)
+        set4Active(false)
+        set5Active(false)
+    }
+
+    const HandleClick4 = () => {
+        set1Active(false)
+        set2Active(false)
+        set3Active(false)
+        set4Active(!is4Active)
+        set5Active(false)
+    }
+
+    const HandleClick5 = () => {
+        set1Active(false)
+        set2Active(false)
+        set3Active(false)
+        set4Active(false)
+        set5Active(!is5Active)
+    }
     return (
         <div className="genres-card-container">
             {/* <Link className="genres-card horror" to="/horrorpage" >
@@ -35,21 +80,21 @@ const GenresCard = () => {
                 </div>
             </Link> */}
 
-            <div class="genres-container">
-                <div class="genre-panel active" style={{backgroundImage: `url(https://images3.alphacoders.com/106/thumb-1920-1061065.png)`}}>
+            <div className="genres-container">
+                <div className= {is1Active? "genre-panel active":"genre-panel"} onClick={HandleClick1} style={{backgroundImage: `url(https://wallpapers.com/images/hd/horror-wallpaper-wipqucukh5wolwuu.jpg)`}}>
                     <h3>Horror</h3>
                 </div>
 
-                <div class="genre-panel" style={{backgroundImage: `url('https://wallpaperaccess.com/full/5283070.jpg')`}}>
+                <div className= {is2Active? "genre-panel active":"genre-panel"} onClick={HandleClick2}  style={{backgroundImage: `url('https://img.freepik.com/free-photo/beautiful-photozone-with-big-wreath-decorated-with-greenery-roses-centerpiece-candles-sides-garland-hanged-trees_8353-11019.jpg?w=2000')`}}>
                     <h3>Romantic Comedy</h3>
                 </div>
-                <div class="genre-panel" style={{backgroundImage: `url('https://images8.alphacoders.com/103/thumb-1920-1034735.png')`}}>
+                <div className={is3Active? "genre-panel active":"genre-panel"} onClick={HandleClick3} style={{backgroundImage: `url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2wMOKuQsDBuJlhHCiUhwpaNfAh6PORe9nA&usqp=CAU')`}}>
                     <h3>Mystery</h3>
                 </div>
-                <div class="genre-panel" style={{backgroundImage: `url('https://wallpaperaccess.com/full/5112296.jpg')`}}>
+                <div className={is4Active? "genre-panel active":"genre-panel"} onClick={HandleClick4} style={{backgroundImage: `url('https://wallpaperaccess.com/full/5112296.jpg')`}}>
                     <h3>Anime</h3>
                 </div>
-                <div class="genre-panel" style={{backgroundImage: `url('https://wallpaperaccess.com/full/3518463.jpg')`}}>
+                <div className={is5Active? "genre-panel active":"genre-panel"} onClick={HandleClick5} style={{backgroundImage: `url('https://wallpapercave.com/wp/wp3173712.jpg')`}}>
                     <h3>Action</h3>
                 </div>
             </div>
