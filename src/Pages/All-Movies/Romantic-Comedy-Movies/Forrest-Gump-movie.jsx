@@ -9,7 +9,7 @@ import { Chhichhore, CityLights, ForrestGump, LifeIsBeautiful, ModernTimes } fro
 const ForrestGumpPage = () => {
     return(
         <div className="forrest-gump-movie-container">
-            <MoviePage MovieName={ForrestGump.MovieName} ReleaseYear={ForrestGump.ReleaseYear} Desc={ForrestGump.Desc} IMDB={ForrestGump.IMDB} Director={ForrestGump.Director} Duration={ForrestGump.Duration} Cast={ForrestGump.Cast} Genre={ForrestGump.Genre} Certification={ForrestGump.Certification} Language={ForrestGump.Language} Distribution={ForrestGump.Distribution} />
+            <MoviePage MovieName={ForrestGump.MovieName} ReleaseYear={ForrestGump.ReleaseYear} Desc={ForrestGump.Desc} IMDB={ForrestGump.IMDB} Director={ForrestGump.Director} Duration={ForrestGump.Duration} Cast={ForrestGump.Cast} Genre={ForrestGump.Genre} Certification={ForrestGump.Certification} Language={ForrestGump.Language} Distribution={ForrestGump.Distribution} mimgUrl={ForrestGump.mimgUrl} />
             <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">

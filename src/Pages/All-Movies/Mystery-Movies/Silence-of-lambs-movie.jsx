@@ -9,7 +9,7 @@ import {LivesofOthers, MirrorGame, RearWindow, Seven, SilenceofLambs } from "../
 const SilenceofLambsPage = () => {
     return(
         <div className="silenceoflambs-movie-container">
-            <MoviePage MovieName={SilenceofLambs.MovieName} ReleaseYear={SilenceofLambs.ReleaseYear} Desc={SilenceofLambs.Desc} IMDB={SilenceofLambs.IMDB} Director={SilenceofLambs.Director} Duration={SilenceofLambs.Duration} Cast={SilenceofLambs.Cast} Genre={SilenceofLambs.Genre} Certification={SilenceofLambs.Certification} Language={SilenceofLambs.Language} Distribution={SilenceofLambs.Distribution} />
+            <MoviePage MovieName={SilenceofLambs.MovieName} ReleaseYear={SilenceofLambs.ReleaseYear} Desc={SilenceofLambs.Desc} IMDB={SilenceofLambs.IMDB} Director={SilenceofLambs.Director} Duration={SilenceofLambs.Duration} Cast={SilenceofLambs.Cast} Genre={SilenceofLambs.Genre} Certification={SilenceofLambs.Certification} Language={SilenceofLambs.Language} Distribution={SilenceofLambs.Distribution} mimgUrl={SilenceofLambs.mimgUrl} />
             <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">

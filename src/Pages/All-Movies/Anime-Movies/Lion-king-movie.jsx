@@ -8,7 +8,7 @@ import { Grave, LionKing, SpiderMan, Spiritedaway, Yourname } from "../../../mov
 const LionKingPage = () => {
     return(
         <div className="alien-movie-container">
-            <MoviePage MovieName={LionKing.MovieName} ReleaseYear={LionKing.ReleaseYear} Desc={LionKing.Desc} IMDB={LionKing.IMDB} Director={LionKing.Director} Duration={LionKing.Duration} Cast={LionKing.Cast} Genre={LionKing.Genre} Certification={LionKing.Certification} Language={LionKing.Language} Distribution={LionKing.Distribution} />
+            <MoviePage MovieName={LionKing.MovieName} ReleaseYear={LionKing.ReleaseYear} Desc={LionKing.Desc} IMDB={LionKing.IMDB} Director={LionKing.Director} Duration={LionKing.Duration} Cast={LionKing.Cast} Genre={LionKing.Genre} Certification={LionKing.Certification} Language={LionKing.Language} Distribution={LionKing.Distribution}  mimgUrl={LionKing.mimgUrl}/>
             <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">

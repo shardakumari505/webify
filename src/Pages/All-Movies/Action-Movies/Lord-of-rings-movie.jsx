@@ -7,7 +7,7 @@ import { Darknight, LordOfTheRings, Inception, Matrix, StarWars } from "../../..
 const LordofRings = () => {
     return(
         <div className="alien-movie-container">
-            <MoviePage MovieName={LordOfTheRings.MovieName} ReleaseYear={LordOfTheRings.ReleaseYear} Desc={LordOfTheRings.Desc} IMDB={LordOfTheRings.IMDB} Director={LordOfTheRings.Director} Duration={LordOfTheRings.Duration} Cast={LordOfTheRings.Cast} Genre={LordOfTheRings.Genre} Certification={LordOfTheRings.Certification} Language={LordOfTheRings.Language} Distribution={LordOfTheRings.Distribution} />
+            <MoviePage MovieName={LordOfTheRings.MovieName} ReleaseYear={LordOfTheRings.ReleaseYear} Desc={LordOfTheRings.Desc} IMDB={LordOfTheRings.IMDB} Director={LordOfTheRings.Director} Duration={LordOfTheRings.Duration} Cast={LordOfTheRings.Cast} Genre={LordOfTheRings.Genre} Certification={LordOfTheRings.Certification} Language={LordOfTheRings.Language} Distribution={LordOfTheRings.Distribution} mimgUrl={LordOfTheRings.mimgUrl} />
             <div className="more-movie-movie-container" id="more-movie-movie-container">
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
