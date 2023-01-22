@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const AlienPage = () => {
     return(
         <div className="alien-movie-container">
-            <MoviePage MovieName={Alien.MovieName} ReleaseYear={Alien.ReleaseYear} Desc={Alien.Desc} IMDB={Alien.IMDB} Director={Alien.Director} Duration={Alien.Duration} Cast={Alien.Cast} Genre={Alien.Genre} Certification={Alien.Certification} Language={Alien.Language} Distribution={Alien.Distribution} />
+            <MoviePage MovieName={Alien.MovieName} ReleaseYear={Alien.ReleaseYear} Desc={Alien.Desc} IMDB={Alien.IMDB} Director={Alien.Director} Duration={Alien.Duration} Cast={Alien.Cast} Genre={Alien.Genre} Certification={Alien.Certification} Language={Alien.Language} Distribution={Alien.Distribution} mimgUrl={Alien.mimgUrl}/>
             <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">

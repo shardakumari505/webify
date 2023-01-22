@@ -9,7 +9,7 @@ import { Chhichhore, CityLights, ForrestGump, LifeIsBeautiful, ModernTimes } fro
 const ModernTimesPage = () => {
     return(
         <div className="modern-times-movie-container">
-            <MoviePage MovieName={ModernTimes.MovieName} ReleaseYear={ModernTimes.ReleaseYear} Desc={ModernTimes.Desc} IMDB={ModernTimes.IMDB} Director={ModernTimes.Director} Duration={ModernTimes.Duration} Cast={ModernTimes.Cast} Genre={ModernTimes.Genre} Certification={ModernTimes.Certification} Language={ModernTimes.Language} Distribution={ModernTimes.Distribution} />
+            <MoviePage MovieName={ModernTimes.MovieName} ReleaseYear={ModernTimes.ReleaseYear} Desc={ModernTimes.Desc} IMDB={ModernTimes.IMDB} Director={ModernTimes.Director} Duration={ModernTimes.Duration} Cast={ModernTimes.Cast} Genre={ModernTimes.Genre} Certification={ModernTimes.Certification} Language={ModernTimes.Language} Distribution={ModernTimes.Distribution} mimgUrl={ModernTimes.mimgUrl}/>
             <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">

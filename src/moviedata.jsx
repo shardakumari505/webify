@@ -278,7 +278,7 @@ export const Tumbbad = {
     Language: "Hindi  Swedish",
     reviews:"",
     imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lwsefIF_dHj01pdCK1qJ6aqLlAu7juX2Oe9ZjazQ&s",
-    mimgUrl:""
+    mimgUrl:"https://e1.pxfuel.com/desktop-wallpaper/652/294/desktop-wallpaper-tumbbad-movie-tumbbad.jpg"
 
 };
 
