@@ -17,7 +17,7 @@ const MoviePage = ({ MovieName, IMDB, ReleaseYear, Desc, Director, Duration, Cas
                         <span className="imdbRatingPlugin1" data-user="ur161205415" data-title="tt0468569" data-style="p1">
                             <img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt="The Dark Knight (2008) on IMDb" />
                             <h6>{IMDB}</h6>
-                            <span className="fa fa-star fa-3x star-movie-icon"></span>
+                            <span className="fa fa-star star-movie-icon"></span>
                         </span>
                     </div>
                     <span className="movie-details-on-main-movie-page">
