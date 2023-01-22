@@ -3,6 +3,7 @@ import './dashboard.styles.scss';
 import GenresCard from "../../Components/genres-card/genres-card";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
+import Dropmenu from "../../Components/Dropmenu-button/Dropmenu.components";
 
 const Dashboard = () => {
     return (<div className="dashboard-container">
@@ -12,9 +13,11 @@ const Dashboard = () => {
             </h1>
             <p className="dashboard-description-text">Everyone wants something to watch when they are bored, so Cinephiles is a one stop solution for movie lovers. We have curated the top five movies across five genres.</p>
         </div>
-        <div className="dashboard-container-middle">
+        {/* <div className="dashboard-container-middle">
             <a className="dropdown" href="#genreCrd"><span className="fa fa-chevron-down chevron"></span></a>
-        </div>
+        </div> */}
+
+        <Dropmenu nextblock="genreCrd" />
         <div className="dashboard-container-bottom">
             <h5 id="dashboard-subtitle-text" className="dashboard-subtitle-text">Genres</h5>
             <div id="genreCrd" className="genreCrd"><GenresCard /></div>

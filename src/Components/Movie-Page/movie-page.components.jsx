@@ -8,8 +8,8 @@ import ShareButton from "../Share-button/share-button.components"
 
 // style={{backgroundImage:`url(${imgUrl})`}}
 
-const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Duration,Cast,imgUrl,Genre,Certification,Language,Distribution}) => {
-    return(
+const MoviePage = ({ MovieName, IMDB, ReleaseYear, Desc, Director, Duration, Cast, imgUrl, Genre, Certification, Language, Distribution }) => {
+    return (
         <div className="movie-movie-container">
             <div className="image-container" >
                 <div className="movie-all-texts">
@@ -17,7 +17,7 @@ const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Duration,Cast,imgUr
                         <span className="movie-title-on-main-movie-page">{MovieName}</span>
                         <span className="imdbRatingPlugin" data-user="ur161205415" data-title="tt0468569" data-style="p1">
                             <img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt="The Dark Knight (2008) on IMDb" />
-                            <h6>{ IMDB }</h6>
+                            <h6>{IMDB}</h6>
                         </span>
                     </div>
                     <span className="movie-details-on-main-movie-page">
@@ -57,7 +57,6 @@ const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Duration,Cast,imgUr
                 </div>
             </div>
 
-               
 
         </div>
     );
