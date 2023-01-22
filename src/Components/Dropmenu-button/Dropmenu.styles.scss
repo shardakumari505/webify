@@ -9,8 +9,10 @@
 .chevron{
     // padding-top: 40vh;
     color: #fff;
-    font-size: 3rem;
+    font-size: 8rem;
     cursor: pointer;
+    z-index: 99;
+    // background-color: aqua;
   }
 
   .chevron:hover{
