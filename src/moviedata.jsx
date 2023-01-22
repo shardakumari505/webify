@@ -277,7 +277,7 @@ export const Tumbbad = {
     Distribution: "Eros International",
     Language: "Hindi  Swedish",
     reviews:"",
-    imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lwsefIF_dHj01pdCK1qJ6aqLlAu7juX2Oe9ZjazQ&s",
+    imgUrl:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7cH-3XEfQCfzUFHQLL4OhYPL-SYcNUUoWsW1cqUAK_y8Tp8K",
     mimgUrl:""
 
 };
@@ -298,8 +298,8 @@ export const LivesofOthers = {
     Distribution: "Buena Vista International",
     Language: "German",
     reviews:"",
-    imgUrl:"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/26e5e3ac050ed4af3c1ad353dc51777909324d85222c69d1e1abc8864e57ea33._RI_V_TTW_.jpg"
-
+    imgUrl:"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/26e5e3ac050ed4af3c1ad353dc51777909324d85222c69d1e1abc8864e57ea33._RI_V_TTW_.jpg",
+    mimgUrl: "https://wallpapercave.com/wp/wp4062678.jpg"
 };
 
 
@@ -316,8 +316,8 @@ export const MirrorGame = {
     Distribution: "PVR Pictures",
     Language: "Hindi",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BMmVmYWFkYWMtOThhZC00Y2VkLTkyNjMtYTBkNmE2ZTNlNmQzXkEyXkFqcGdeQXVyNjMxNjgwOTk@._V1_.jpg"
-
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BMmVmYWFkYWMtOThhZC00Y2VkLTkyNjMtYTBkNmE2ZTNlNmQzXkEyXkFqcGdeQXVyNjMxNjgwOTk@._V1_.jpg",
+    mimgUrl: "https://rare-gallery.com/uploads/posts/907278-fantasy-art-video-games-Mirror-game-Artanis.png"
 };
 
 
@@ -334,8 +334,8 @@ export const RearWindow = {
     Distribution: "Paramount Pictures",
     Language: "English",
     reviews:"",
-    imgUrl:"https://images.fandango.com/ImageRenderer/400/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/104405/Rear-Window%20poster%20fandango.jpg"
-
+    imgUrl:"https://images.fandango.com/ImageRenderer/400/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/104405/Rear-Window%20poster%20fandango.jpg",
+    mimgUrl:"https://wallpaperaccess.com/full/4598353.png"
 };
 
 
@@ -352,7 +352,8 @@ export const Seven = {
     Distribution: "New Line Cinema",
     Language: "English",
     reviews:"",
-    imgUrl:"https://i.pinimg.com/originals/e5/4c/84/e54c844024a3f5823f5f6532ace4c92f.jpg"
+    imgUrl:"https://i.pinimg.com/originals/e5/4c/84/e54c844024a3f5823f5f6532ace4c92f.jpg",
+    mimgUrl:"https://images5.alphacoders.com/112/1125324.jpg"
 
 };
 
@@ -370,7 +371,8 @@ export const SilenceofLambs = {
     Distribution: "Orion Pictures",
     Language: "English",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+    mimgUrl:"https://cdn.wallpapersafari.com/26/48/rhDxS8.jpg"
 
 };
 
@@ -389,7 +391,8 @@ export const Chhichhore = {
     Distribution: "Walt Disney Studios  •  Motion Pictures",
     Language: "Hindi",
     reviews:"",
-    imgUrl:"https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Chhichhore_Poster.jpg/220px-Chhichhore_Poster.jpg"
+    imgUrl:"https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Chhichhore_Poster.jpg/220px-Chhichhore_Poster.jpg",
+    mimgUrl:"https://wallpaperaccess.com/full/3410107.jpg"
 
 };
 
@@ -409,7 +412,8 @@ export const CityLights = {
     Distribution: "United Artists",
     Language: "English",
     reviews:"",
-    imgUrl:"https://upload.wikimedia.org/wikipedia/commons/0/09/City_Lights_%281931_theatrical_poster_-_retouched%29.jpg"
+    imgUrl:"https://upload.wikimedia.org/wikipedia/commons/0/09/City_Lights_%281931_theatrical_poster_-_retouched%29.jpg",
+    mimgUrl:"https://static.toiimg.com/imagenext/toiblogs/photo/blogs/wp-content/uploads/2014/05/city.jpg"
 
 };
 
@@ -427,7 +431,8 @@ export const ForrestGump = {
     Distribution: "Paramount Pictures",
     Language: "English",
     reviews:"",
-    imgUrl:"https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Forrest_Gump_poster.jpg/220px-Forrest_Gump_poster.jpg"
+    imgUrl:"https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Forrest_Gump_poster.jpg/220px-Forrest_Gump_poster.jpg",
+    mimgUrl:"https://rare-gallery.com/mocahbig/72620-Tom-HanksForrest-Gump-HD-Wallpaper.jpg"
 
 };
 
@@ -445,8 +450,8 @@ export const LifeIsBeautiful = {
     Distribution: "Cecchi Gori Group",
     Language: "Italian",
     reviews:"",
-    imgUrl:"https://upload.wikimedia.org/wikipedia/en/7/7c/Vitaebella.jpg"
-
+    imgUrl:"https://upload.wikimedia.org/wikipedia/en/7/7c/Vitaebella.jpg",
+    mimgUrl:"https://wallpapercave.com/wp/wp6574108.jpg"
 };
 
 
@@ -463,6 +468,6 @@ export const ModernTimes = {
     Distribution: "United Artists",
     Language: "English",
     reviews:"",
-    imgUrl:"https://upload.wikimedia.org/wikipedia/commons/3/36/Modern_Times_poster.jpg"
-
+    imgUrl:"https://upload.wikimedia.org/wikipedia/commons/3/36/Modern_Times_poster.jpg",
+    mimgUrl:"https://getwallpapers.com/wallpaper/full/3/0/9/1396494-vertical-charlie-chaplin-wallpaper-1920x1200-windows-10.jpg"
 };
