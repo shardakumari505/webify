@@ -181,7 +181,8 @@ export const Yourname = {
     Distribution: "Toho",
     Language: "Japanese",
     reviews:"",
-    imgUrl:"https://m.media-amazon.com/images/M/MV5BNGYyNmI3M2YtNzYzZS00OTViLTkxYjAtZDIyZmE1Y2U1ZmQ2XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
+    imgUrl:"https://m.media-amazon.com/images/M/MV5BNGYyNmI3M2YtNzYzZS00OTViLTkxYjAtZDIyZmE1Y2U1ZmQ2XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+    mimgUrl:"https://wallpaperaccess.com/full/130408.jpg"
 
 };
 
@@ -200,7 +201,8 @@ export const Alien= {
     Distribution: "20th Century Fox",
     Language: "English",
     reviews:"",
-    imgUrl:"https://cdn.shopify.com/s/files/1/0969/9128/products/alien--covenant-the-official-collector--s-edition-cover-102516_1a9162a0-d5b6-4288-896b-af6caf2c71b6.jpg?v=1514034484"
+    imgUrl:"https://cdn.shopify.com/s/files/1/0969/9128/products/alien--covenant-the-official-collector--s-edition-cover-102516_1a9162a0-d5b6-4288-896b-af6caf2c71b6.jpg?v=1514034484",
+    mimgUrl:"https://wallpaperaccess.com/full/341411.png"
 
 };
 
@@ -218,7 +220,8 @@ export const Psycho = {
     Distribution: "Paramount Pictures",
     Language: "English",
     reviews:"",
-    imgUrl:"https://i.etsystatic.com/21420603/r/il/81fd11/2782690640/il_fullxfull.2782690640_nn4r.jpg"
+    imgUrl:"https://i.etsystatic.com/21420603/r/il/81fd11/2782690640/il_fullxfull.2782690640_nn4r.jpg",
+    mimgUrl:"https://w0.peakpx.com/wallpaper/1005/120/HD-wallpaper-movie-american-psycho.jpg"
 
 };
 
@@ -236,7 +239,8 @@ export const Shining = {
     Distribution: "Warner Bros. (United States)  •  Columbia-EMI-Warner Distributors (United Kingdom)",
     Language: "English",
     reviews:"",
-    imgUrl:"https://alternativemovieposters.com/wp-content/uploads/2022/10/Stella-Ygris_Shining.jpg"
+    imgUrl:"https://alternativemovieposters.com/wp-content/uploads/2022/10/Stella-Ygris_Shining.jpg",
+    mimgUrl:"https://wallpaperaccess.com/full/1452026.jpg"
 
 };
 
@@ -254,7 +258,8 @@ export const Thing = {
     Language: "English",
     Certification: "A",
     reviews:"",
-    imgUrl:"https://images-na.ssl-images-amazon.com/images/I/61Mf%2B-TcV8L.jpg"
+    imgUrl:"https://images-na.ssl-images-amazon.com/images/I/61Mf%2B-TcV8L.jpg",
+    mimgUrl:"https://w0.peakpx.com/wallpaper/958/393/HD-wallpaper-movie-the-thing-1982.jpg"
 
 };
 
@@ -272,7 +277,8 @@ export const Tumbbad = {
     Distribution: "Eros International",
     Language: "Hindi  Swedish",
     reviews:"",
-    imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lwsefIF_dHj01pdCK1qJ6aqLlAu7juX2Oe9ZjazQ&s"
+    imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lwsefIF_dHj01pdCK1qJ6aqLlAu7juX2Oe9ZjazQ&s",
+    mimgUrl:""
 
 };
 
