@@ -12,13 +12,14 @@ import Dropmenu from "../Dropmenu-button/Dropmenu.components";
 const MoviePage = ({ MovieName, IMDB, ReleaseYear, Desc, Director, Duration, Cast, imgUrl, Genre, Certification, Language, Distribution,mimgUrl }) => {
     return (
         <div className="movie-movie-container">
-            <div className="image-container" style={{backgroundImage:`url(${mimgUrl})`}} >
+            <div className="image-container" ><div className="image-overlay"></div>
                 <div className="movie-all-texts">
-                    <div className="movie-title-and-imdb-rating">
-                        <span className="movie-title-on-main-movie-page">{MovieName}</span>
-                        <span className="imdbRatingPlugin" data-user="ur161205415" data-title="tt0468569" data-style="p1">
+                    <div className="movie-title-and-imdb-rating1">
+                        <span className="movie-title-on-main-movie-page1">{MovieName}</span>
+                        <span className="imdbRatingPlugin1" data-user="ur161205415" data-title="tt0468569" data-style="p1">
                             <img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt="The Dark Knight (2008) on IMDb" />
                             <h6>{IMDB}</h6>
+                            <span className="fa fa-star star-movie-icon"></span>
                         </span>
                     </div>
                     <span className="movie-details-on-main-movie-page">
@@ -41,23 +42,19 @@ const MoviePage = ({ MovieName, IMDB, ReleaseYear, Desc, Director, Duration, Cas
                     </span>
                     <div className="movie-play-button-container">
                         <div className="movie-play-left-container">
-                            <div className="movie-play-button">
-                                <FontAwesomeIcon className="play-icon" icon={faPlay} />
-                                <div className="play-button">Play</div>
-                            </div>
+                        <div className="movie-trailer-button-movie-page">
+                            <FontAwesomeIcon className="play-icon" icon={faPlay} />
+                            <div className="trailer-button">Watch Trailer</div>
+                        </div>
                             <div className="movie-share-button">
-                                {/* <FontAwesomeIcon className="share-icon" icon={faShareNodes} /> */}
                                 <ShareButton />
                             </div>
                         </div>
-                        <div className="movie-trailer-button">
-                            <FontAwesomeIcon className="play-icon" icon={faPlay} />
-                            <div className="trailer-button">Trailer</div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
-            <Dropmenu nextblock="more-movie-movie-container" />
+            <div className="dropmenu-icon"><Dropmenu nextblock="more-movie-movie-container" /></div>
         </div>
     );
 }
