@@ -49,7 +49,7 @@ const GenresCard = () => {
         set5Active(!is5Active)
     }
     return (
-        <div className="genres-card-container">
+        <div id="genres-card-container" className="genres-card-container">
             {/* <Link className="genres-card horror" to="/horrorpage" >
                 <div className="genres-card horror" id='horror-page'>
                     <h5 className="">Horror</h5>
