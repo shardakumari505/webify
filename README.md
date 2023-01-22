@@ -38,36 +38,32 @@ npm start       #Starting dev server
 
 ## Screenshots
 
-### SignUp Page
-![register page](https://user-images.githubusercontent.com/78858121/160277693-b1b2ebbd-6dff-4ff7-af46-599b871a5f84.png)
+###Navbar
+![Screenshot (22)](https://user-images.githubusercontent.com/78858121/213933002-5e40a23f-a22e-4ffa-a7a7-cd5cea12bbe1.png)
 
-### SignIn Page
-![signinpage](https://user-images.githubusercontent.com/78858121/160277695-d28d25e7-3c48-4e36-bb9d-c594848a9564.png)
 
-### Code Editor
-![editor home](https://user-images.githubusercontent.com/78858121/160277685-29b95985-8818-4c71-8eaf-26dbc835aa1d.png)
-![code editor](https://user-images.githubusercontent.com/78858121/160277684-8a30322e-cc1e-481d-9441-84ba9bc975b2.png)
+### Card
+![Screenshot (21)](https://user-images.githubusercontent.com/78858121/213932919-c4bc28db-a763-4436-8ca0-2f2daede3495.png)
 
-### Virtual Chamber
-![user room home](https://user-images.githubusercontent.com/78858121/160277699-1185f880-96c6-4b3d-9ce6-3dcc5f52ba75.png)
-![user room](https://user-images.githubusercontent.com/78858121/160277701-78ab3798-1fab-452c-88b7-0cf6c3835ec6.png)
 
-### Task Manager
-![task home](https://user-images.githubusercontent.com/78858121/160277696-cf38d934-9d17-4608-a74d-952c72898883.png)
-![task list](https://user-images.githubusercontent.com/78858121/160277698-46c23430-505a-442a-9ab6-89b5b126b003.png)
+### Genres Card
+![Screenshot (13)](https://user-images.githubusercontent.com/78858121/213932700-b6e4dfca-d3f1-41ff-86c6-7e0cbec6ab55.png)
 
-### Audio and Video Call Options
-![ac and vc](https://user-images.githubusercontent.com/78858121/160277676-cd9571ed-0ab4-4f2a-836f-66248c4c3353.png)
 
-### Music Player
-![music player](https://user-images.githubusercontent.com/78858121/160277688-383f63fa-675b-4701-9e75-920f47f9488c.png)
+### Genre Home page
+![Screenshot (15)](https://user-images.githubusercontent.com/78858121/213932750-5c27bb97-1f79-4e6d-8866-684558eb9b2a.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/78858121/213932779-4da35761-0d3b-48a1-a434-9f35d2823a70.png)
 
-### Two way Message Chat
-![chat](https://user-images.githubusercontent.com/78858121/160277683-2b740012-3c36-4b39-8d44-f1ace9ece175.png)
 
-### Read and Share Blogs
-![blog home](https://user-images.githubusercontent.com/78858121/160277680-bda05c7b-0205-413c-827e-7e6e1df8614a.png)
-![blog page](https://user-images.githubusercontent.com/78858121/160277681-c2530ea5-ffd2-4803-a804-81d9555dc1a0.png)
+### Movie Page
+![Screenshot (18)](https://user-images.githubusercontent.com/78858121/213932817-5d55f5f6-f2e6-4df2-80b4-13768393a7e3.png)
+
+![Screenshot (20)](https://user-images.githubusercontent.com/78858121/213932819-9eecdf6d-c6ba-44dc-954f-5c846bfd1726.png)
+
+### About the Authors
+![Screenshot (17)](https://user-images.githubusercontent.com/78858121/213932943-6ca7b23e-4b58-4b73-8db4-c5d3a1bd83f6.png)
+
+
  
 
 
