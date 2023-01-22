@@ -76,12 +76,13 @@
   }
   
   .genre-panel h3 {
-    font-size: calc(24 / 16 * 1rem);
+    font-size: calc(24 / 16 * 3rem);
     position: absolute;
     bottom: 20px;
     left: 20px;
     margin: 0;
     opacity: 0;
+    color: #fff;
   }
   
   .genre-panel.active {
