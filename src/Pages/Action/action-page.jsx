@@ -8,7 +8,6 @@ import { Inception } from "../../moviedata";
 import { Matrix } from "../../moviedata";
 import { StarWars } from "../../moviedata";
 import 'animate.css';
-import $ from 'jquery';
 
 
 const ActionPage = () => {

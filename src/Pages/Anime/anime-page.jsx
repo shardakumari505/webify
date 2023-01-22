@@ -1,7 +1,6 @@
 import React from "react";
 import './anime-page.styles.scss';
 import Card from "../../Components/Card/card.component";
-import Card1 from "../../Components/Card1/card1.components";
 import { Link } from "react-router-dom";
 
 import { Grave, LionKing, SpiderMan, Spiritedaway, Yourname } from "../../moviedata";

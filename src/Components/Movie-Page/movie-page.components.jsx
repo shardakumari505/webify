@@ -2,8 +2,6 @@ import React from "react";
 import './movie-page.styles.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
-import Card1 from "../Card1/card1.components";
-import { faShareNodes } from '@fortawesome/free-solid-svg-icons';
 import ShareButton from "../Share-button/share-button.components";
 import Dropmenu from "../Dropmenu-button/Dropmenu.components";
 
