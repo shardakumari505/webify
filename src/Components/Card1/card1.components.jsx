@@ -13,7 +13,7 @@ const Card1 = (imgUrl) => {
         <Card MovieName={Darknight.MovieName} Desc={Darknight.Desc} />
       </div>
 
-      <div className="card2">
+      {/* <div className="card2">
       <Card MovieName={Darknight.MovieName} Desc={Darknight.Desc} />
       </div>
 
@@ -23,7 +23,7 @@ const Card1 = (imgUrl) => {
 
       <div className="card4">
       <Card MovieName={Darknight.MovieName} Desc={Darknight.Desc} />
-      </div>
+      </div> */}
     </div>
   </>)
 }

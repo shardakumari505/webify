@@ -57,16 +57,7 @@ const MoviePage = ({MovieName,IMDB,ReleaseYear,Desc,Director,Duration,Cast,imgUr
                 </div>
             </div>
 
-            <div className="more-movie-movie-container">            
-                <div className="more-text-container">More like These</div>
-                <div className="movie-movie-cards-container">
-                    <Card1/>
-                    {/* <Card1/>
-                    <Card1/>
-                    <Card1/> */}
-                </div>
-            </div>
-          
+               
 
         </div>
     );
