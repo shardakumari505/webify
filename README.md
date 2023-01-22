@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# CinePhiles
+[![badge-stability](https://img.shields.io/badge/stability-stable-green.svg?style=flat-square)]()
+[![badge-npm](https://img.shields.io/npm/v/cloudflare.svg?style=flat-square)]()
+<img src="https://img.shields.io/badge/License-MIT-blue.svg">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CinePhiles is a one stop solution for all movie lovers
 
-## Available Scripts
+[View live version](https://philescine.netlify.app/)
 
-In the project directory, you can run:
+# Pre-requisites before Getting Started with CinePhiles
 
-### `npm start`
+- npm >= 5.5.0
+- node >= 16.14.2 
+ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Getting Started with CinePhiles
+In the terminal, you can run:
 
-### `npm test`
+```bash
+git clone https://github.com/shardakumari505/webify.git
+cd webify
+npm install     #Installing dependencies
+npm start       #Starting dev server
+```
+## Features
+- Real Time Collaborative Code Editor with live video and audio calls. Enjoy your favorite music while working on the same platform.
+- Connect to Teams via Virtual Chamber, invite friends, teams and connect via text/video/audio.
+- Read and Share Blogs
+- Personal Task List
+- Music for good mood :)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+- [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Sass](https://sass-lang.com/) - CSS pre-processor
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### SignUp Page
+![register page](https://user-images.githubusercontent.com/78858121/160277693-b1b2ebbd-6dff-4ff7-af46-599b871a5f84.png)
 
-### `npm run eject`
+### SignIn Page
+![signinpage](https://user-images.githubusercontent.com/78858121/160277695-d28d25e7-3c48-4e36-bb9d-c594848a9564.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Code Editor
+![editor home](https://user-images.githubusercontent.com/78858121/160277685-29b95985-8818-4c71-8eaf-26dbc835aa1d.png)
+![code editor](https://user-images.githubusercontent.com/78858121/160277684-8a30322e-cc1e-481d-9441-84ba9bc975b2.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Virtual Chamber
+![user room home](https://user-images.githubusercontent.com/78858121/160277699-1185f880-96c6-4b3d-9ce6-3dcc5f52ba75.png)
+![user room](https://user-images.githubusercontent.com/78858121/160277701-78ab3798-1fab-452c-88b7-0cf6c3835ec6.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Task Manager
+![task home](https://user-images.githubusercontent.com/78858121/160277696-cf38d934-9d17-4608-a74d-952c72898883.png)
+![task list](https://user-images.githubusercontent.com/78858121/160277698-46c23430-505a-442a-9ab6-89b5b126b003.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Audio and Video Call Options
+![ac and vc](https://user-images.githubusercontent.com/78858121/160277676-cd9571ed-0ab4-4f2a-836f-66248c4c3353.png)
 
-## Learn More
+### Music Player
+![music player](https://user-images.githubusercontent.com/78858121/160277688-383f63fa-675b-4701-9e75-920f47f9488c.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Two way Message Chat
+![chat](https://user-images.githubusercontent.com/78858121/160277683-2b740012-3c36-4b39-8d44-f1ace9ece175.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Read and Share Blogs
+![blog home](https://user-images.githubusercontent.com/78858121/160277680-bda05c7b-0205-413c-827e-7e6e1df8614a.png)
+![blog page](https://user-images.githubusercontent.com/78858121/160277681-c2530ea5-ffd2-4803-a804-81d9555dc1a0.png)
+ 
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Authors
 
-### Analyzing the Bundle Size
+- **Sharda Kumari** - _Initial work_ - [shardakumari505](https://github.com/shardakumari505)
+- **Sameer Kumar Shrivastava** - _Initial work_ - [sameer-kumar-shrivastava](https://github.com/sameer-kumar-shrivastava)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+ 
+ 
