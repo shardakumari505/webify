@@ -94,16 +94,16 @@
     font-size: 1.3rem;
 }
 
-.left-column{
-    width: 50%;
-    // background-color: aqua;
-}
+// .left-column{
+//     width: 50%;
+//     // background-color: aqua;
+// }
 
-.right-column{
-    width: 50%;
-    text-align: left;
-    // background-color: aquamarine;
-}
+// .right-column{
+//     width: 50%;
+//     text-align: left;
+//     // background-color: aquamarine;
+// }
 
 .movie-play-button-container{
     width: 100%;
@@ -202,3 +202,19 @@
     align-items: left;
 }
 
+.card1-container-movie{
+    z-index: 4;
+    transition: all 0.5s linear;
+}
+
+.card2-container-movie,.card3-container-movie,.card4-container-movie{
+    margin-left: -150px;
+    z-index: 5;
+    transition: all 0.5s linear;
+}
+
+.card1-container-movie:hover,.card2-container-movie:hover,.card3-container-movie:hover,.card4-container-movie:hover{
+    // margin-left: -150px;
+    z-index: 9;
+    transform: scale(1.1);
+}

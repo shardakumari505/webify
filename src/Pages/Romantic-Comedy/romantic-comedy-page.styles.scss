@@ -7,7 +7,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffd8d8;
+  // background-color: #ffd8d8;
+  background: rgb(231,107,161);
+background: radial-gradient(circle, rgba(231,107,161,1) 0%, rgba(80,62,186,1) 50%, rgba(215,148,205,1) 100%);
 }
 
 
@@ -49,8 +51,19 @@
 .romantic-comedy-page-title-text {
   margin-top: 10vh;
   color: #8c2d49;
+  color: aliceblue;
   font-size: 4rem;
   font-weight: bold;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
   // background-color: aquamarine;
 }
 
@@ -62,7 +75,7 @@
 .romantic-movie-container {
   width: 100%;
   display: flex;
-  // margin-top: 10vh;
+  margin-top: 10vh;
   // justify-content: space-around;
   // justify-content: space-evenly;
   // margin-top: 40px;

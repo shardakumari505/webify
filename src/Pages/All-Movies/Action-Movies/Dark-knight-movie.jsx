@@ -12,10 +12,10 @@ const DarkKnight = () => {
                  <div className="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
+                    <div className="card1-container-movie"><Card1/></div>
+                    <div className="card2-container-movie"><Card1/></div>
+                    <div className="card3-container-movie"><Card1/></div>
+                    <div className="card4-container-movie"><Card1/></div>
                 </div>
             </div>
         </div>
