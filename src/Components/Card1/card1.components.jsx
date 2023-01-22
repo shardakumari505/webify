@@ -4,13 +4,13 @@ import Imdb from './imdb.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import Card from "../Card/card.component";
-import { Darknight } from "../../moviedata";
 
-const Card1 = (imgUrl) => {
+
+const Card1 = ({MovieName,Desc,imgUrl,IMDB}) => {
   return (<>
     <div className="container">
       <div className="card1">
-        <Card MovieName={Darknight.MovieName} Desc={Darknight.Desc} />
+        <Card MovieName={MovieName} Desc={Desc} imgUrl={imgUrl} IMDB={IMDB} />
       </div>
 
       {/* <div className="card2">
