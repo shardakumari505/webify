@@ -6,6 +6,7 @@ import Dropmenu from "../../Components/Dropmenu-button/Dropmenu.components";
 const Dashboard = () => {
     return (<div className="dashboard-container">            
             <div className="dashboard-container-top">
+            <div className="dash-image-overlay"></div>
                 <h1 className="dashboard-title-text">
                     <span className="dashboard-title-text-span">Ci</span>ne<span className="dashboard-title-text-span">Philes</span>
                 </h1>
@@ -15,7 +16,7 @@ const Dashboard = () => {
             <a className="dropdown" href="#genreCrd"><span className="fa fa-chevron-down chevron"></span></a>
         </div> */}
 
-        <Dropmenu nextblock="genreCrd" />
+        <div className="drop"><Dropmenu nextblock="genreCrd" /></div>
         <div className="dashboard-container-bottom">
             <h5 id="dashboard-subtitle-text" className="dashboard-subtitle-text">Genres</h5>
             <div id="genreCrd" className="genreCrd"><GenresCard /></div>
