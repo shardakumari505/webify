@@ -18,7 +18,7 @@ const SpidermanPage = () => {
                     imgUrl={LionKing.imgUrl}
                     IMDB={LionKing.IMDB}
                 /></Link></div>
-                    <div className="card2-container-movie"><Link className="movie-link" to='/spiderman-movie'><Card1
+                    <div className="card2-container-movie"><Link className="movie-link" to='/grave-movie'><Card1
                     MovieName={Grave.MovieName}
                     Desc={Grave.Desc}
                     imgUrl={Grave.imgUrl}

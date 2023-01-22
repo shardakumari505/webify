@@ -12,7 +12,7 @@ const LionKingPage = () => {
             <div className="more-movie-movie-container" id="more-movie-movie-container">            
                 <div className="more-text-container">More like These</div>
                 <div className="movie-movie-cards-container">
-                    <div className="card1-container-movie"><Link className="movie-link" to='/lionking-movie'><Card1
+                    <div className="card1-container-movie"><Link className="movie-link" to='/grave-movie'><Card1
                     MovieName={Grave.MovieName}
                     Desc={Grave.Desc}
                     imgUrl={Grave.imgUrl}

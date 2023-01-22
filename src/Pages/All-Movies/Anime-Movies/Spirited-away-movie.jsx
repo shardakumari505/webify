@@ -24,7 +24,7 @@ const SpiritedawayPage = () => {
                     imgUrl={SpiderMan.imgUrl}
                     IMDB={SpiderMan.IMDB}
                 /></Link></div>
-                    <div className="card3-container-movie"> <Link className="movie-link" to='/spiritedaway-movie'><Card1
+                    <div className="card3-container-movie"> <Link className="movie-link" to='/grave-movie'><Card1
                     MovieName={Grave.MovieName}
                     Desc={Grave.Desc}
                     imgUrl={Grave.imgUrl}
