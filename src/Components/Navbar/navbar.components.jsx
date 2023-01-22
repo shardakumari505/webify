@@ -30,7 +30,7 @@ class Navbar extends React.Component{
         return(
             <div className="navbar-container">
                 <div className="navbar-container-left">
-                <Link className="navbar-text" to='/'><h3 className="navbar-text navbar-title">BingeWatch</h3></Link>
+                <Link className="navbar-text" to='/'><h3 className="navbar-text navbar-title">Cine<span>Philes</span></h3></Link>
                   <Link className="navbar-text" to='/'>Home</Link>
                   <Link className="navbar-text" to='/horrorpage'>Horror</Link>
                   <Link className="navbar-text" to='/romanticcomedypage'>Romantic Comedy</Link>
