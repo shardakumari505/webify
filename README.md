@@ -32,7 +32,8 @@ npm start       #Starting dev server
 ## Screenshots
 
 ### Dashboard
-![Screenshot (24)](https://user-images.githubusercontent.com/78858121/213933341-810fea49-6eea-4667-a1dd-57464c3d3bf1.png)
+![Screenshot (25)](https://user-images.githubusercontent.com/78858121/213933840-77bd5eee-e3f2-4ef8-88d0-ca7823b33ed3.png)
+
 
 
 ### Navbar
