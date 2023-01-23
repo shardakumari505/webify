@@ -7,7 +7,7 @@ import { LivesofOthers, MirrorGame, RearWindow, Seven, SilenceofLambs } from "..
 const MysteryPage = () => {
     return (
         <div className="mystery-page-container">
-            <div className="mystery-page-title-text">Mystery</div>
+            <div className="mystery-page-title-text">MYSTERY</div>
             <div className="mystery-movie-container">
                 <Link className="movie-link" to='/livesofothers-movie'><Card
                     MovieName={LivesofOthers.MovieName}
