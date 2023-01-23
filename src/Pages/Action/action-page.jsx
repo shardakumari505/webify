@@ -26,7 +26,7 @@ const ActionPage = () => {
 
     return (
         <div className="action-page-container">
-            <div className="action-page-title-text">Action</div>
+            <div className="action-page-title-text">ACTION</div>
             <div className="action-movie-container">
              <Link className="movie-link" to='/darkknight-movie'><Card MovieName={Darknight.MovieName} imgUrl={Darknight.imgUrl} Desc={Darknight.Desc} IMDB={Darknight.IMDB} /></Link>
              <Link className="movie-link" to='/lordofrings-movie'><Card MovieName={LordOfTheRings.MovieName} imgUrl={LordOfTheRings.imgUrl} Desc={LordOfTheRings.Desc} IMDB={LordOfTheRings.IMDB}/></Link>

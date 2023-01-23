@@ -2,12 +2,14 @@
     height: 100vh;
     width: 100%;
     // background: url('https://images.unsplash.com/photo-1580920790557-43158492adb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-    background: url('https://images.alphacoders.com/159/159993.jpg');
+    // background: url('https://images.alphacoders.com/159/159993.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #131313;
+    font-family:sans-serif;
 }
 
 .mystery-page-title-text {
@@ -45,10 +47,10 @@
     /* for Firefox */
     overflow-x: scroll;
     // border: 1px solid rgba(255, 255, 255, .25);
-  background-color: rgba(255, 255, 255, 0.329);
-//   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+//   background-color: rgba(255, 255, 255, 0.329);
+// //   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
-  backdrop-filter: blur(2px);
+//   backdrop-filter: blur(2px);
 }
 
 .mystery-movie-container::-webkit-scrollbar {
@@ -74,3 +76,66 @@
 .mystery-movie-container::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(#283048, #859398);
 }
+
+
+.mystery-title-h2
+{
+    // background-color: #333;
+  font-size:6rem;
+  color:#333;
+  font-weight:500;
+  margin-top: 0;
+  margin-bottom: 0;
+//   padding-bottom: 0;
+}
+.mystery-title-span
+{
+  animation: animate 3s linear infinite;
+}
+.mystery-title-span:nth-child(1)
+{
+  animation-delay:0s;
+}
+.mystery-title-span:nth-child(2)
+{
+  animation-delay:0.4s;
+}
+.mystery-title-span:nth-child(3)
+{
+  animation-delay:0.8s;
+}
+.mystery-title-span:nth-child(4)
+{
+  animation-delay:1.2s;
+}
+.mystery-title-span:nth-child(5)
+{
+  animation-delay:1.6s;
+}
+.mystery-title-span:nth-child(6)
+{
+  animation-delay:2s;
+}
+.mystery-title-span:nth-child(7)
+{
+  animation-delay:2.4s;
+}
+@keyframes animate
+{
+  0%,80%
+  {
+    color:#333;
+    text-shadow:none;
+  }
+  100%
+  {
+    color:#fff;
+    text-shadow: 0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #fff,
+                0 0 80px #fff,
+                0 0 120px #fff,
+                0 0 160px #fff;
+  }
+}
+  

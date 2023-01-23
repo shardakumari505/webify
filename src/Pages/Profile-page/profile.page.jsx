@@ -35,7 +35,7 @@ const ProfilePage = () => {
                             <i class="fa fa-instagram my-icon insta"></i>
                         </a>
                         <a target="_blank" href="https://twitter.com/sharda9_singh" rel="noreferrer">
-                            <i class="fa fa-twitter my-icon"></i>
+                            <i class="fa fa-twitter my-icon twitter"></i>
                         </a>
                     </span>
                     <span className="interest">Experiences</span>
@@ -82,7 +82,7 @@ const ProfilePage = () => {
                                 <i class="fa fa-instagram my-icon insta"></i>
                             </a>
                             <a target="_blank" href="https://twitter.com/i_sameer21" rel="noreferrer">
-                                <i class="fa fa-twitter my-icon"></i>
+                                <i class="fa fa-twitter my-icon twitter"></i>
                             </a>
                         </span>
                         <span className="interest">Experiences</span>

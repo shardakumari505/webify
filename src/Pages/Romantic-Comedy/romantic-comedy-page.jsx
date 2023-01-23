@@ -7,7 +7,7 @@ const RomanticComedyPage = () => {
     return (
         <div className="romantic-comedy-page-container">
             <div className="romantic-page-top-container">
-            <div className="romantic-comedy-page-title-text">Romantic Comedy</div>
+            <div className="romantic-comedy-page-title-text"><h1 className="romatic-title-h1"><span className="romantic-title-span">Romantic</span><span className="romantic-title-span">Comedy</span></h1></div>
             {/* <div className="romantic-gif"><svg xmlns="http://www.w3.org/2000/svg" id="couple" viewBox="0 0 600 500">
                 <defs />
                 <g id="couple-svgs">

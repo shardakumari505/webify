@@ -36,12 +36,8 @@ class Navbar extends React.Component{
                   <Link className="navbar-text" to='/actionpage'>Action</Link>
                 </div>
 
-                <div className="navbar-container-centre">
-                  {/* <div className="search-icon-navbar"><SearchIcon /></div> */}
-                </div>
-
                 <div className="navbar-container-right">
-                    <div className="bell-icon-navbar"><Link className="navbar-text" to='/profile'><FontAwesomeIcon className="bell-icon" icon={faUser} /></Link></div>
+                    <Link className="navbar-text" to='/profile'><FontAwesomeIcon className="bell-icon" icon={faUser} /><h5>About Us</h5></Link>
                 </div>
             </div>
         )

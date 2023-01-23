@@ -28,16 +28,17 @@
     height: 10vh;
     // padding: 20px 15px 20px 15px;
     padding-left: 20px;
-    width: 65%;
+    width: 88%;
     align-items: center;
     // background-color: aqua;
 }
 
 .navbar-text{
     padding: 20px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: aliceblue;
+    display: flex;
 }
 
 .navbar-title{
@@ -45,18 +46,12 @@
     font-size: 2.5rem;
 }
 
-.navbar-container-centre{
-    width: 28%;
-    height: 10vh;
-    position: absolute;
-    left: 65%;
-    // background-color: aquamarine;
-}
 
 .navbar-container-right{
-    width: 7%;
+    width: 12%;
     height: 10vh;
     display: flex;
+    flex-direction: row;
     position: absolute;
     right: 0px;
     align-items: center;
@@ -74,14 +69,6 @@
     // box-shadow: 0 0 25px 5px #000;
 }
 
-.bell-icon-navbar{
-    height: 6vh;
-    // background-color: aqua;
-    display: flex;
-    align-items: center;
-    // justify-content: center;
-    align-content: center;
-}
 
 .bell-icon{
     height: 4vh;
