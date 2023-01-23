@@ -7,15 +7,7 @@ import { LivesofOthers, MirrorGame, RearWindow, Seven, SilenceofLambs } from "..
 const MysteryPage = () => {
     return (
         <div className="mystery-page-container">
-            <div className="mystery-page-title-text"><h2 className="mystery-title-h2">
-      <span className="mystery-title-span">M</span>
-      <span className="mystery-title-span">Y</span>
-      <span className="mystery-title-span">S</span>
-      <span className="mystery-title-span">T</span>
-      <span className="mystery-title-span">E</span>
-      <span className="mystery-title-span">R</span>
-      <span className="mystery-title-span">Y</span>
-    </h2></div>
+            <div className="mystery-page-title-text">Mystery</div>
             <div className="mystery-movie-container">
                 <Link className="movie-link" to='/livesofothers-movie'><Card
                     MovieName={LivesofOthers.MovieName}
