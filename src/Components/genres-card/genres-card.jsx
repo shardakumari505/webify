@@ -88,7 +88,7 @@ const GenresCard = () => {
                 <div className={is2Active ? "genre-panel active" : "genre-panel"} onClick={HandleClick2} style={{ backgroundImage: `url('https://img.freepik.com/free-photo/beautiful-photozone-with-big-wreath-decorated-with-greenery-roses-centerpiece-candles-sides-garland-hanged-trees_8353-11019.jpg?w=2000')` }}>
                     <Link className="genres-card romantic-comedy" to="/romanticcomedypage" ><h3 className="genre-title">Romantic Comedy</h3></Link>
                 </div>
-                <div className={is3Active ? "genre-panel active" : "genre-panel"} onClick={HandleClick3} style={{ backgroundImage: `url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2wMOKuQsDBuJlhHCiUhwpaNfAh6PORe9nA&usqp=CAU')` }}>
+                <div className={is3Active ? "genre-panel active" : "genre-panel"} onClick={HandleClick3} style={{ backgroundImage: `url('https://rare-gallery.com/thumbs/385037-4k-wallpaper.jpg')` }}>
                     <Link className="genres-card mystery" to="/mysterypage" ><h3 className="genre-title">Mystery</h3></Link>
                 </div>
                 <div className={is4Active ? "genre-panel active" : "genre-panel"} onClick={HandleClick4} style={{ backgroundImage: `url('https://wallpaperaccess.com/full/5112296.jpg')` }}>
