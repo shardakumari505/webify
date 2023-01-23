@@ -32,16 +32,19 @@ npm start       #Starting dev server
 ## Screenshots
 
 ### Dashboard
-![Screenshot (25)](https://user-images.githubusercontent.com/78858121/213933840-77bd5eee-e3f2-4ef8-88d0-ca7823b33ed3.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/78858121/214117091-34f438dc-7dc4-4b65-bc74-f67b7355917d.png)
+
 
 
 
 ### Navbar
-![Screenshot (22)](https://user-images.githubusercontent.com/78858121/213933002-5e40a23f-a22e-4ffa-a7a7-cd5cea12bbe1.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/78858121/214116358-71808030-27b4-484e-b756-75ced35600e7.png)
+
 
 
 ### Card
-![Screenshot (21)](https://user-images.githubusercontent.com/78858121/213932919-c4bc28db-a763-4436-8ca0-2f2daede3495.png)
+![Screenshot (33)](https://user-images.githubusercontent.com/78858121/214116518-0ea14018-06a9-4079-9ea0-0ba6b4bef364.png)
+
 
 
 ### Genres Card
@@ -49,17 +52,25 @@ npm start       #Starting dev server
 
 
 ### Genre Home page
-![Screenshot (15)](https://user-images.githubusercontent.com/78858121/213932750-5c27bb97-1f79-4e6d-8866-684558eb9b2a.png)
-![Screenshot (16)](https://user-images.githubusercontent.com/78858121/213932779-4da35761-0d3b-48a1-a434-9f35d2823a70.png)
+![Screenshot (29)](https://user-images.githubusercontent.com/78858121/214116620-546a2494-86fc-4403-ba25-0cc611f22340.png)
+
+![Screenshot (32)](https://user-images.githubusercontent.com/78858121/214116694-c9487881-4800-4b0c-8628-c9a4be0671b7.png)
+
+![Screenshot (30)](https://user-images.githubusercontent.com/78858121/214116666-418568fa-2e46-40f3-99e1-65dec5c7b946.png)
+
 
 
 ### Movie Page
-![Screenshot (18)](https://user-images.githubusercontent.com/78858121/213932817-5d55f5f6-f2e6-4df2-80b4-13768393a7e3.png)
+![Screenshot (34)](https://user-images.githubusercontent.com/78858121/214116778-98a83820-c66d-467a-bfd4-6b2333958bb2.png)
 
-![Screenshot (20)](https://user-images.githubusercontent.com/78858121/213932819-9eecdf6d-c6ba-44dc-954f-5c846bfd1726.png)
+![Screenshot (35)](https://user-images.githubusercontent.com/78858121/214116791-cd8fa258-5d46-4970-b0d8-52a961f497fc.png)
+
 
 ### About the Authors
-![Screenshot (17)](https://user-images.githubusercontent.com/78858121/213932943-6ca7b23e-4b58-4b73-8db4-c5d3a1bd83f6.png)
+![Screenshot (36)](https://user-images.githubusercontent.com/78858121/214116845-4abe1b93-0b2d-42a0-a6f0-10c44763ad7f.png)
+
+![Screenshot (37)](https://user-images.githubusercontent.com/78858121/214116861-04d7fe31-b674-4f10-b59d-6e2cba40524f.png)
+
 
 
  
