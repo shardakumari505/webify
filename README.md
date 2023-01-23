@@ -48,15 +48,21 @@ npm start       #Starting dev server
 
 
 ### Genres Card
-![Screenshot (13)](https://user-images.githubusercontent.com/78858121/213932700-b6e4dfca-d3f1-41ff-86c6-7e0cbec6ab55.png)
+![Screenshot (40)](https://user-images.githubusercontent.com/78858121/214118898-cfacaca1-2c7f-4d8e-b1fe-9695f9654a49.png)
+
 
 
 ### Genre Home page
 ![Screenshot (29)](https://user-images.githubusercontent.com/78858121/214116620-546a2494-86fc-4403-ba25-0cc611f22340.png)
 
+![Screenshot (30)](https://user-images.githubusercontent.com/78858121/214116666-418568fa-2e46-40f3-99e1-65dec5c7b946.png)
+
 ![Screenshot (32)](https://user-images.githubusercontent.com/78858121/214116694-c9487881-4800-4b0c-8628-c9a4be0671b7.png)
 
-![Screenshot (30)](https://user-images.githubusercontent.com/78858121/214116666-418568fa-2e46-40f3-99e1-65dec5c7b946.png)
+![Screenshot (38)](https://user-images.githubusercontent.com/78858121/214119000-06acab5c-ed3f-4494-b105-c03247127330.png)
+
+![Screenshot (39)](https://user-images.githubusercontent.com/78858121/214119023-ed9b48c4-055e-4083-b6dd-2e2288191459.png)
+
 
 
 
