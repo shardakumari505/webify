@@ -24,7 +24,7 @@ const Dashboard = () => {
                 <div class="box vivify fadeIn duration-200 delay-300"><img src="https://anshulgupta.in/ui/landing-page/fxi/connor-botts-YxKBT84-nm0-unsplash.jpg" alt="" /></div>
                 <div class="box vivify fadeIn duration-200 delay-400"><img src="https://anshulgupta.in/ui/landing-page/fxi/ahmed-syed-ZdOSy9_DWWg-unsplash.jpg" alt="" /></div>
                 <div class="company-name">
-                    <h1 class="vivify driveInLeft duration-1000 section-2-h1">CinePhiles</h1>
+                    <h1 class="vivify driveInLeft duration-1000 section-2-h1"><span>Cine</span>Philes</h1>
                     <h2 class="vivify swoopInTop duration-400 section-2-h2"> Is a one stop solution for movie lovers.<br /> We have curated the top five movies across five genres.</h2>
                 </div>
             </div>
